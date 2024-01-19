@@ -1,0 +1,144 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+    
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-area" data-bgimage="{% static '/assets/images/contact-bg.png'%}" data-black-overlay="4">
+        <div class="container">
+            <div class="in-breadcrumb">
+                <div class="row">
+                    <div class="col">
+                        <h3>Become a Trainer</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Breadcrumb -->
+    
+    
+    
+    <section class="become-tariner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="become-left my-5">
+                        <p>Would you like to help people achieve and exceed their potential? Are you interested in helping businesses to get more success? Would you like to motivate people to be great at their careers?</p>
+                        <p>If Yes, you should Become a Trainer.</p>
+                        <p>A Trainer is an instructor, educator or mentor who motivates, guide or educates Students, Corporate employees and Entrepreneur to achieve specific goals. The ultimate objective of a Trainer is to increase the efficiency of employees and align them with Organization mission and vision.</p>
+                        <h3>A great passion for teaching and sharing knowledge  </h3>
+                        <p>If a trainer joins us then we expect him/her to be able to organize a wide range of programs like trainer leadership programmes, change management programmes, skill development programs and many more.</p>
+                        <h3>What are the roles and responsibilities for Trainer?</h3>
+                        <ul class="list-disc">
+                            <li>Trainers create and lead Student Development Programs that improve both the individual and, in turn, their overall performance within an organization.</li>
+                            <li>Specialized Subject Trainer. Organize training sessions in your area of expertise.</li>
+                            <li>Individual gap analysis and conducts assessments.</li>
+                            <li>Organize and obtain training manuals and guides.</li>
+                            <li>They create visuals, presentations and program plans that serve as educational materials for Students.</li>
+                            <li>Increase profitability and efficiency through improving the skills and work styles of student at all levels of a working sector.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                <div class="curriculum-form my-5">
+                    <h3 class="box-h">INTERESTED IN WORKING WITH US?</h3>
+                    <ul>
+                        <li><input type="text" placeholder="Name*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Email*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Mobile*" class="topb-input"></li>
+                        <li><select name="selectCourse" id="selectCourse" aria-label="selectCourse" class="topb-input">
+                            <option value="">Select Course*</option>
+                            <option value="b163">Full Stack Java Developer</option>
+                            <option value="b102">Devops Practitioner</option>
+                            <option value="b207">Full Stack Developer .NET</option>
+                            <option value="b184">Azure Cloud</option>
+                            <option value="b176">Deep Learning</option>
+                            <option value="b208">Natural Language Processing</option>
+                            <option value="b251">Design Thinking &amp; Innovation</option>
+                            <option value="b250">Digital Transformation</option>
+                            <option value="b178">Blockchain Developer Track</option>
+                            <option value="b105">Full Stack Web Developer - MEAN Stack</option>
+                            <option value="b183">AWS Cloud</option>
+                            <option value="b232">Cyber Security</option>
+                            <option value="b213">Data Engineering</option>
+                            <option value="b117">Data Science</option>
+                            <option value="b180">Data Analytics</option>
+                            <option value="b245">Agile and Scrum</option>
+                            <option value="b181">Lean Six Sigma</option>
+                            <option value="b244">Digital Marketing</option>
+                            <option value="b210">Business Analysis</option>
+                            <option value="b55">IT Service and Architecture</option>
+                            <option value="b122">Project Management</option>
+                            <option value="other">Others</option>
+                        </select></li>
+                        <li><select name="selectCourse" id="selectCourse2" aria-label="selectCourse2" class="topb-input">
+                            <option value="">Qualification*</option>
+                            <option value="b163">Intermediate</option>
+                            <option value="b102">Diploma</option>
+                            <option value="b207">Graduate</option>
+                            <option value="b184">Post Graduate</option>
+                            <option value="b176">Phd</option>
+                            
+                           
+                        </select></li>
+                         <li><textarea name="Message" id="" cols="30" rows="3" class="border1"></textarea></li>
+                    </ul>
+                    <div class="submi">
+                        <a href="#">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+   <section class="trainer-last">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-7">
+                   <h3>Requirements </h3>
+                   <ul class="list-disc">
+                       <li>Domain expertise with relevant certifications.</li>
+                       <li>Strong communication and presentation skills required.</li>
+                       <li>A commitment to developing and delivering best-in-class training to a global audience.</li>
+                   </ul>
+               </div>
+               <div class="col-lg-5">
+                   <div class="d-flex justify-content-end">
+                       <img src="{% static '/assets/images/rec.png'%}" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+
+ {% endblock body %}

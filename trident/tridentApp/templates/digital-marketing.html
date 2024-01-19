@@ -1,0 +1,711 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+
+    <!-- Managing Across bg start -->
+<section class="across-main bg2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Advance Digital Marketing Training and Certification Program</h3>
+                        <h4>Digital Marketing and Analytics Training for Students, Professionals <br> and Entrepreneurs</h4>
+                        <p>Get connected with our Industry Certified expert team by our one-on-one doubt clearing session. They will assist you as per your requirement. Be a part of our live project session and get well-versed knowledge of the real world Digital Marketing working system.</p>
+                        <h6>Online and Classroom Batch Available <span>*</span></h6>
+                    </div>
+                </div>
+                <div class="row r">
+                    <div class="col-md-4 ">
+                        <div class="r-box bor-right">
+                                <span>4.9</span> Ratings on <img src="{% static 'assets/images/g2.png' %}" alt="" class="mx-1"><a href="#">Reviews 
+                             </a>
+                             <br>
+                             <div class="awee"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 bor-right ">
+                            <span>13k+</span> Students Enrolled
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 succ m-margin">
+                              Guarantee Success
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row bg-ul">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE CONTENT <i class="fas fa-download"></i></button></li>
+                            <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE BROCHURE <i class="fas fa-download"></i> </button></li>
+                            <li><button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#">VIEW SCHEDULE <i class="fas fa-calendar-alt"></i> </button></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+            <div class="col-md-4">
+                <div class="card-3">
+     
+        <div class="division">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <span>Drop Your Query</span>
+                </div>
+            </div>
+
+            <form class="myform">
+                 <div class="mt-2">
+               <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+             </div>
+
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Id">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Query">
+             </div>
+
+             <div class="my-t">
+                 <button type="button" class="btn ntn-block btn-primary btn-lg">
+                     Submit
+                 </button>
+             </div>
+            </form>
+</div>
+            </div>
+        </div>
+        </div>
+
+        <!-- <div class="row">
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 One among the top 10 most valuable certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 90% of the people get job after Certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 Experienced and Certified Trainers</p>
+                        </div>
+                     </div>
+                  </div> -->
+    </div>
+</section>
+<div class="q-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Drop Your Query</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            <li><input type="text" placeholder="City" class="topb-input"></li>
+                            <li><input type="text" placeholder="Enter Your Query" class="topb-input"></li>
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="downloadcourse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Get Course Content
+</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<section class="content-nav d-none-m header-sticky2 header-sticky2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#training-options">Training Options</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faqs">Faqs</a></li>
+                </ul>
+                 <div class="entroll">
+                    <button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Enroll Now
+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="world">
+    <div class="container">
+        <div class="row">
+            <h2>World’s #1 <b>Online Bootcamp</b></h2>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-1.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.6</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-2.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-3.png' %}" alt="">
+                        </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<section class="digital-marketing" id="training-options">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 heading-line2 ">
+                <h2>Digital Marketing <b>Training</b></h2>
+                <span style="color:#000; padding-top:10px;">Enroll in Digital Marketing Certification Program—Get exposure in the World of opportunity</span>
+                <p>Enable your digital marketing learning Input from Trident Global Services and get hired by the top organizations. Our Industry expert team will give you the robust knowledge of Digital marketing and make you up to date with the modest technology to stay relevant. Our Certified expert team will assist you for qualifying the assessment program of Google, Microsoft and other organization around the world. Grab the Certificate from them and Win the race.</p>
+                <p>Be a part of our live project program with the help of our Industry expert team and get a clear view of the live working system.</p>
+            </div>
+            <div class="col-md-5">
+                <div class="digital-video">
+                     <!-- <video loop autoplay muted controls id="vid" >
+               <source src="{% static 'assets/video/digital.mp4" type="video/mp4"> -->
+                <img src="{% static 'assets/images/digi.png' %}" alt="">
+             </video> 
+            <!--  <span class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&amp;;showinfo=0&amp;;autoplay=1&amp;;controls=0&amp;;mute=1&amp;;loop=1&amp;;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+                            </span> -->
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="overview" id="overview" style="background:#f2f8ff;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 top-over heading-line2 ">
+                <h2>Explore the new era of Digital Marketing with Trident Global Services and become a Pro.</h2>
+                <ul class="pro2">
+                    <li>Are you searching for the best guidance of getting the highest paid job?</li>
+                    <li>Or you want to promote your business?</li>
+                    <li>Or you want to upgrade your skill?</li>
+                </ul>
+                <h6>The best solution is to learn Digital Marketing. Trident Global Services will provide you the best and easiest way to learn the Digital Marketing strategy. Be a part of our program. And boost your career to the next level.</h6>
+            </div>
+            <div class="col-md-4 watch-over">
+              <!-- <img src="{% static 'assets/images/mx.png' %}" alt=""> 
+              <span class="intro-text">Watch <b>INTRO VIDEO</b></span> --> 
+            </div>
+        </div>
+        <div class="row pt--40">
+           <div class="col-lg-3">
+               <div class="digital-box">
+                   <h3>What are attractive jobs waiting for you?</h3>
+                   <ul>
+                       <li>Digital Marketing Manager</li>
+                       <li>SEM Manager</li>
+                       <li>SEO Specialist</li>
+                       <li>Social Media and Content Manager</li>
+                    
+                   </ul>
+               </div>
+           </div>
+
+
+           <div class="col-lg-3">
+               <div class="digital-box">
+                   <h3>Added benefits</h3>
+                   <ul>
+                       <li>A fun-filled journey from a beginner to a Pro</li>
+                       <li>Our expert team will find out the hidden Digital Marketing Genius in You.</li>
+                       <li>A Digital Marketing Certificate will add credibility in your Portfolio.</li>
+                       <li>Get Special assistance in clearing Google and Microsoft Advertising Certification.</li>
+                    
+                   </ul>
+               </div>
+           </div>
+
+           <div class="col-lg-3">
+               <div class="digital-box">
+                   <h3>Features</h3>
+                   <ul>
+                       <li>Mock Interview</li>
+                       <li>Resume Feedback</li>
+                       <li>Recorded Video Sessions</li>
+                       <li>Case studies</li>
+                       <li>Live projects</li>
+                       <li>Industry Mentors</li>
+                    
+                   </ul>
+               </div>
+           </div>
+
+           <div class="col-lg-3">
+               <div class="digital-box">
+                   <h3>Brownie points</h3>
+                   <ul>
+                       <li>Advanced Placement Assistance</li>
+                       <li>Assistance in earning Google and Bing Adverting Certification</li>
+                       <li>Interactive Q & A sessions <br> ( Doubt Resolution sessions)</li>
+                       <li>Fun Learning activities and workshop with peers</li>
+                    
+                   </ul>
+               </div>
+           </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sneak-sec" style="padding-top:40px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <h3>Sneak Peak into our Digital Marketing Certification Course</h3>
+                <p>A survey of 1000 workers in a variety of professions has identified the recruitment sector as the most stressful working environment with 82% of recruitment consultants regularly feeling stressed at work.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-7 sneak-box">
+                <ul>
+                    <li><i class="fa fa-check-square-o" aria-hidden="true"></i>Basics of Digital Marketing</li>
+                    <li>Website Design and Development</li>
+                    <li>SEO, SMO</li>
+                    <li>On-Page Optimization</li>
+                    <li>Off-Page Optimization</li>
+                    <li>PPC Marketing</li>
+                    <li>Google Analytics</li>
+                    <li>Amazon Marketing</li>
+
+                </ul>
+                <ul>
+                    <li>Affiliate Marketing</li>
+                    <li>E-commerce Marketing</li>
+                    <li>Adsense and Blogging</li>
+                    <li>Advance Google Analytics</li>
+                    <li>Google Tag Manager</li>
+                    <li>Youtube Marketing</li>
+                    <li>Video Creation</li>
+                </ul>
+            </div>
+            <div class="col-lg-5">
+                <img src="{% static 'assets/images/featured-app.png' %}" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="training-option" id="feature">
+    <div class="container heading-line2">
+        <h2 class="pb-4">Features of Trident Global Services’s Digital Marketing Certification <b>Course</b></h2>
+        <div class="row">
+           <div class="col-lg-3">
+               <div class="feature-box2">
+                  <h4>Live Projects</h4> 
+                  <p>We make you work on live marketing campaigns to give you a real-time value addition and learning at par with world famous Digital Marketing Institutes.</p>
+               </div>
+           </div>
+           <div class="col-lg-3">
+               <div class="feature-box2">
+                  <h4>Industry Mentors</h4> 
+                  <p>Our online digital marketing training will enable you to learn the inside scoops about the digital marketing industry and hacks to get ahead of others by none other than prominent Industry Mentors every 15 days!</p>
+               </div>
+           </div>
+           <div class="col-lg-3">
+               <div class="feature-box2">
+                  <h4>Case Studies</h4> 
+                  <p>We believe in application-based learning. We make sure you get real world value-based learning and not just a digital marketing certificate. Hence, we provide you with no less than 15 case studies! You will enjoy solving cases and learn concepts at the same time.</p>
+               </div>
+           </div>
+           <div class="col-lg-3">
+               <div class="feature-box2">
+                  <h4>Recorded Video Sessions</h4> 
+                  <p>Have you missed out on a live session? You won’t lag, because we record all our courses and make them available to you anytime you want.</p>
+               </div>
+           </div>
+          
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="managing-testi" id="reviews" style="margin-top:-40px">
+    <div class="container">
+         <div class="row">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    
+                        <h4>Reviews</h4>
+                    
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Trident Global Services  is the best place to learn online from experienced and certified tutors. I have completed the Agile Scrum Master and Salesforce training through Trident Global Services . They provided a user-friendly environment with world-class trainers and e-learning content. The SimpliTalk forum is great for resolving and questions.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon2.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Max</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p">Trident Global Services  is a fantastic platform to learn new technologies while being employed. The course content is excellent. After getting certified, I was able to change my job role and grab a 30% salary hike.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Dan Sanny</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Everything, the trainer, tools and technology used, the pace and accessibility was really good.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<section class="faqs" id="faqs">
+    <div class="container">
+        <h4>FAQs</h4>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="accordion" id="accordionExample">
+ 
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="collapseone">
+        Why sign up for Trident Global Services’s Master’s in Digital Marketing certification course? 
+      </button>
+    </h2>
+    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Trident Global Services offers advanced Digital Marketing course with placement. In this training program, you will become proficient in all the tools and technologies involved in the field of Digital Marketing, such as SEO, crawling, SERPs, on-page optimizations, etc. Moreover, you will attain the skills required to become proficient in this field. Trident Global Services provides a 24-hour online assistance platform where you can get a resolution to all your queries. <br>
+       We will also provide lifelong access to the training material for free. During this Digital Marketing full course, you will work on several assignments and case studies that will provide you industry experience. Further, our placement team will guide you and help you apply for and land some of the best Digital Marketing jobs in the world today. We also offer you our Digital Marketing master’s certification upon your course completion.
+ </div>
+</div>
+</div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="collapseTwo">
+       Does Trident Global Services provide any other online Digital Marketing Courses? 
+      </button>
+    </h2>
+    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>
+            Some of the other related Digital Marketing programs are on SEO, SEM, SMM, Google Analytics, Content Marketing, Mobile Marketing and Email Marketing.
+            <br>
+        
+        </p>
+      </div>
+    </div>
+ </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="collapseThree">
+        What are the most important and free Digital Marketing resources for learners? 
+      </button>
+    </h2>
+    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Learn Digital Marketing from the free blogs available. The top resources are What is Digital Marketing, Tutorial and Interview Questions.
+      </div>
+    </div>
+  </div>
+ 
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="collapseThree">
+        What is Search Engine Optimization (SEO) in Digital Marketing? 
+      </button>
+    </h2>
+    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Search Engine Optimization is an effective technique in Digital Marketing. It is the process of enhancing the quantity and quality of traffic to your website and improving search engine rankings.
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="collapseThree">
+        Do you provide live classes or pre-recorded Digital Marketing videos? 
+      </button>
+    </h2>
+    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Yes, Trident Global Services professional Digital Marketing Course offers both 45 hours Instructor-Led Training & 40 Hours Self-Paced Videos. Trident Global Services provides customized learning with an industry-level Learning Management System (LMS). The online classroom training program involves 1:1 Doubt clearing sessions and you can attend as many batches as you want for a lifetime with a flexible schedule in addition to selfpaced videos.
+      </div>
+</div>
+  
+</div>
+
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="collapseThree">
+        When and how will I receive my certificate once I pass this exam?
+      </button>
+    </h2>
+    <div id="faq7" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Once you successfully complete Projects and Assignments in the Digital Marketing online course and pass the exam, you will receive Trident Global Services’s Digital Marketing certificate through our Learning Management System (LMS). We provide you with a download option. You can also share your certificate from your certificate through either email or LinkedIn.
+      </div>
+</div>
+  
+</div>
+</div>
+</div>
+<div class=" col-md-5">
+    <div class="faq-img-new" >
+<img src="{% static 'assets/images/faq.png' %}" alt="" class="img-fluid " >
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--  -->
+
+<!-- <section class="online-sec">
+
+    <div class="container ">
+        <div class="heading-line2">
+        <h2 class="pb-4">Related <b>Programs</b></h2>
+        </div>
+        <div class="row">
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="under-img text-center">
+                                        <img src="{% static 'assets/images/box-2.jpg" alt="" class="img-fluid" ></div>
+                                        <div class="padd">
+                                        <h2 class="heading-p">Project Management Professional <br>(PMP)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 14 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                           <div class="s-icon">
+                               <a href="#" class="pmp"></a>
+                           </div>
+                                    </div>
+                                </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Resource allocation</li>
+                                          <li><i class="fas fa-check"></i>Project cost estimating</li>
+                                        
+                                        </ul>
+                                        <a href="pmp-certification-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="under-img text-center">
+                                        <img src="{% static 'assets/images/box-4.jpg" alt="" class="img-fluid" ></div>
+                                        <div class="padd">
+                                        <h2 class="heading-p">Agile Scrum Master <br>(ASM)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 90 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                           <div class="s-icon">
+                               <a href="#" class="agile-m"></a>
+                           </div>
+                                    </div>
+                                </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>5+ hours videos</li>
+                                          <li><i class="fas fa-check"></i>One live project </li>
+                                        
+                                        </ul>
+                                        <a href="agile-scrum-master-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="under-img text-center">
+                                        <img src="{% static 'assets/images/box-15.jpg" alt="" class="img-fluid" ></div>
+                                        <div class="padd">
+                                        <h2 class="heading-p">Certified Scrum Product Owner <br>(CSPO) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 43 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                           <div class="s-icon">
+                               <a href="#" class="cspo"></a>
+                           </div>
+                                    </div>
+                                </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="certified-scrum-product-owner-certification-training.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+    </div>
+</section> -->
+
+
+
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+{% endblock body %}

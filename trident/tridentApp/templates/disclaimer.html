@@ -1,0 +1,73 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+
+    
+    
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-area" data-bgimage="{% static 'assets/images/contact-bg.png' %}" data-black-overlay="4">
+        <div class="container">
+            <div class="in-breadcrumb">
+                <div class="row">
+                    <div class="col">
+                        <h3>DISCLAIMER</h3>
+                        <!-- breadcrumb-list start -->
+                        <ul class="breadcrumb-list">
+                            <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+                            <li class="breadcrumb-item active">Disclaimer</li>
+                        </ul>
+                        <!-- breadcrumb-list end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Breadcrumb -->
+    
+    
+    
+    <!-- Page Conttent -->
+   <section class="disclam">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <h2>Disclaimer as to ownership of trademarks, images of personalities, copyright and support</h2>
+                   <p>Any trademarks/names featured on this Website are owned by the respective trade mark owners. Where a trade mark or brand name is referred to, is used solely to describe or identify the products and services and is in no way an assertion that such products or services are endorsed by or connected to Trident Global Services Service.</p>
+               </div>
+           </div>
+       </div>
+   </section>
+    <!--// Page Conttent -->
+    
+   
+
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+{% endblock body %}
+ 

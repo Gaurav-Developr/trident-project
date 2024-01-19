@@ -1,0 +1,630 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+
+    <!-- Managing Across bg start -->
+<section class="across-main" style=" background-image: url({% static 'assets/images/bg-micro.png' %} ) !important;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Azure Data Scientist Associate  Certification Training</h3>
+                        <p>Microsoft Azure Data Scientist Certification is aimed at those who apply their knowledge of data science & machine learning to implement and run machine learning workloads on Azure, using Azure Machine Learning Service. This implies planning and creating a suitable working environment for data science workloads on Azure, running data experiments, and training predictive ML models.</p>
+                    </div>
+                </div>
+                <div class="row r">
+                    <div class="col-md-4 ">
+                        <div class="r-box bor-right">
+                                <span>4.9</span> Ratings on <img src="{% static 'assets/images/g2.png' %}" alt="" class="mx-1"><a href="#">Reviews 
+                             </a>
+                             <br>
+                             <div class="awee"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 bor-right ">
+                            <span>13k+</span> Students Enrolled
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 succ m-margin">
+                             Guarantee Success
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-ul">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE CONTENT <i class="fas fa-download"></i></button></li>
+                            <!-- <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE BROCHURE <i class="fas fa-download"></i> </button></li> -->
+                            <!-- <li><button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#">VIEW SCHEDULE <i class="fas fa-calendar-alt"></i> </button></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-3">
+     
+        <div class="division">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <span>Drop Your Query</span>
+                </div>
+            </div>
+
+            <form class="myform">
+                 <div class="mt-2">
+               <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+             </div>
+
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Id">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Query">
+             </div>
+
+             <div class="my-t">
+                 <button type="button" class="btn ntn-block btn-primary btn-lg">
+                     Submit
+                 </button>
+             </div>
+            </form>
+</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 One among the top 10 most valuable certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 90% of the people get job after Certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 Experienced and Certified Trainers</p>
+                        </div>
+                     </div>
+                  </div>
+    </div>
+</section>
+<div class="q-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Drop Your Query</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            <li><input type="text" placeholder="City" class="topb-input"></li>
+                            <li><input type="text" placeholder="Enter Your Query" class="topb-input"></li>
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="downloadcourse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Get Course Content
+</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<section class="content-nav d-none-m header-sticky2 header-sticky2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#training-options">Training Options</a></li>
+                    <li><a href="#course-curriculum">Course Curriculum</a></li>
+                    <li><a href="#exam-certification">Exam & Certification</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faqs">Faqs</a></li>
+                </ul>
+                 <div class="entroll">
+                    <button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Enroll Now
+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="world">
+    <div class="container">
+        <div class="row">
+            <h2>World’s #1 <b>Online Bootcamp</b></h2>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-1.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.6</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-2.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-3.png' %}" alt="">
+                        </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<section class="overview" id="overview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 top-over heading-line2 ">
+                <h2>Data Scientist Associate <b>Overview</b></h2>
+                <p>Increase in demand for Data Scientists. The CV with this gleaming certification will have an enormous advantage. In terms of job prospects and earning, a certification leads to a rampant gain in both. Better job prospects after getting certified. </p>
+            </div>
+            <div class="col-md-4 watch-over">
+              <!-- <img src="{% static 'assets/images/mx.png' %}" alt=""> 
+              <span class="intro-text">Watch <b>INTRO VIDEO</b></span> --> 
+            </div>
+        </div>
+        <div class="row pt--28">
+            <div class="col-md-8 over-key">
+                <h3>Key Features 
+                    </h3>
+                <ul>
+                    <li>8X higher interaction in live online classes conducted by industry experts</li>
+                    <li>Practice labs and projects with Azure labs</li>
+                </ul>
+                <ul>
+                    <li>Flexibility to choose classes</li>
+
+                    <li>24/7 support with dedicated mentoring sessions
+</li>
+
+                   
+                </ul>
+            </div>
+            <div class="col-md-4 over-skill">
+                <h3>Skills Covered</h3>
+                <ul>
+                    <li>Set up an Azure Machine Learning workspace</li>
+                    <li>Run experiments and train models</li>
+                    <li>Optimize and manage models</li>
+                    <li>Deploy and consume models</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="training-option" id="training-options">
+    <div class="container heading-line2">
+        <h2 class="pb-4">Training <b>Options</b></h2>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>SELF-PACED LEARNING</h3>
+                        <h6>₹ 22,999</h6>
+                        <ul>
+                            <li>Lifetime access to high-quality self-paced eLearning content curated by industry experts
+                            </li>
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>CORPORATE TRAINING</h3>
+                        <h6>Customized to your team's needs</h6>
+                        <ul>
+                            <li> Blended learning delivery model (self-paced eLearning and/or instructor-led options)
+                            </li>
+                            <li>Flexible pricing options</li>
+                            <li>Enterprise grade Learning Management System (LMS)</li>
+                            <li>Enterprise dashboards for individuals and teams</li>
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Curriculum -->
+<section class="curriculum" id="course-curriculum">
+    <div class="container heading-line2">
+        <h2>Course <b>Curriculum</b></h2>
+        <div class="row">
+            <div class="col-md-8 curriculum-left">
+                <h3>Eligibility</h3>
+                <p>Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure.</p>
+                <h3>Pre-requisites</h3>
+                <p>Professionals who do not have any prior knowledge of the field can easily begin with this Data Science certification training as you’ll gain a thorough knowledge of the basic concepts as well.</p>
+            
+            </div>
+            <div class="col-md-4">
+                <div class="curriculum-form">
+                    <h3>Request more information</h3>
+                    <ul>
+                        <li><input type="text" placeholder="Name*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Email*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Mobile*" class="topb-input"></li>
+                        <li><div class="d-flex flex-row"><aside style="padding-right:10px;">Inquiry for:</aside> <label class="radio"> <input type="radio" name="project" checked> <span> </span> Myself</label>
+                        <label class="radio">
+                         <input type="radio" name="project"> <span></span> Company</label> </div></li>
+                         <li><textarea name="Message" id="" cols="30" rows="3" class="border1"></textarea></li>
+                    </ul>
+                    <div class="submi">
+                        <a href="#">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section class="exam" id="exam-certification">
+    <div class="container heading-line2">
+        <h2>AZ-104 Exam & <b>Certification</b></h2>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e1" aria-expanded="false" aria-controls="collapseone">
+       What is required to earn the Azure Administrator certification?
+      </button>
+    </h2>
+    <div id="e1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        To earn the Azure Developer certification, you must pass the following exam: <br>
+        <b>AZ-104: Microsoft Azure Administrator</b> <br>
+        NOTE: This exam is a replacement of AZ-103: Microsoft Azure Administrator which got updated to AZ-104 on APRIL 2, 2020. You will be able to take the old exam until it retires on August 31, 2020.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e2" aria-expanded="false" aria-controls="collapseTwo">
+       Does this new exam and certification replace any existing Azure exams?
+      </button>
+    </h2>
+    <div id="e2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Yes, this Microsoft Certified Azure Administrator Associate AZ-104 is the replacement for Exam AZ-103. This holistic curriculum prepares you for the exam.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e3" aria-expanded="false" aria-controls="collapseThree">
+        What is the difference between Microsoft Certified: Azure Administrator Associate Certification AZ:104 and AZ:103?
+      </button>
+    </h2>
+    <div id="e3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       This new Microsoft Certified: Azure Administrator Associate certification has evolved to have more in-depth coverage of the role-specific skills required in the industry compared to the previous certification.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e4" aria-expanded="false" aria-controls="collapseThree">
+       Is this course accredited?
+      </button>
+    </h2>
+    <div id="e4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Yes, Trident Global Services is a Silver Microsoft Partner, and this course is accredited by Microsoft.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e5" aria-expanded="false" aria-controls="collapseThree">
+       Is the exam fee included in the course fee?
+      </button>
+    </h2>
+    <div id="e5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Yes, the exam fee is included in the course fee.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#e6" aria-expanded="false" aria-controls="collapseThree">
+        How much do the Microsoft Azure Administrator certification exams cost?
+      </button>
+    </h2>
+    <div id="e6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      The cost of the Exam AZ-104: Microsoft Azure Administrator is $165.00 USD plus taxes (for US residents) each and INR 4800 plus taxes (for India residents) each. This fee is paid to Microsoft when you register for your exam.
+      </div>
+    </div>
+  </div>
+ 
+   
+</div>
+            </div>
+            <div class="col-md-5">
+                <div>
+                    <img src="{% static 'assets/images/micro-ad.png' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+</div>
+</section> -->
+
+
+<section class="managing-testi" id="reviews">
+    <div class="container">
+         <div class="row">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    
+                        <h4>Reviews</h4>
+                    
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Trident Global Services  is the best place to learn online from experienced and certified tutors. I have completed the Agile Scrum Master and Salesforce training through Trident Global Services . They provided a user-friendly environment with world-class trainers and e-learning content. The SimpliTalk forum is great for resolving and questions.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon2.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Max</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p">Trident Global Services  is a fantastic platform to learn new technologies while being employed. The course content is excellent. After getting certified, I was able to change my job role and grab a 30% salary hike.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Dan Sanny</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Everything, the trainer, tools and technology used, the pace and accessibility was really good.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<section class="faqs" id="faqs">
+    <div class="container">
+        <h4>FAQs</h4>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="accordion" id="accordionExample">
+ 
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="collapseone">
+        What is Data Science?
+      </button>
+    </h2>
+    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Data science is a broad field that involves dealing with large volumes of data to uncover hidden trends and patterns and extract valuable information that aids in better decision-making. As companies are collecting massive amounts of data, they use various data science tools and techniques to build predictive models. Trident Global Services’s Data Science training can help you learn all of its concepts from scratch.
+ </div>
+</div>
+</div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="collapseTwo">
+      What is Data Science course?
+      </button>
+    </h2>
+    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       In a Data Science course, you need to learn about so many concepts if you are a beginner or an intermediate. A Data Science course is a training program of around six to twelve months, often taken by industry experts to help candidates build a strong foundation in the field. Apart from the theoretical material, our online Data Science certification course includes virtual labs, industry projects, interactive quizzes, and practice tests, giving you an enhanced learning experience.
+      </div>
+    </div>
+ </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="collapseThree">
+        Who is a Data Scientist?
+      </button>
+    </h2>
+    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      A Data Scientist is an individual who gathers, cleans, analyzes, and visualizes large datasets to draw meaningful conclusions and communicate them to the business leaders. The data is collected from various sources, processed into a format suitable for analysis, and fed into an analytics system where a statistical analysis is performed to gain actionable insights.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="collapseThree">
+        Why Get Certified as a Data Scientist?
+      </button>
+    </h2>
+    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       A question that I often hear from clients and colleagues is, "Why should I get a Data Science certification?" That is a fair question for most other areas of study and business. In areas such as finance or engineering, there are far more important accreditations you could and should achieve before “hanging your shingle” or trying to retool your skill set or career.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="collapseThree">
+        How do I become a Data Scientist?
+      </button>
+    </h2>
+    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       This course co-developed with Azure Data Scientist Associate  will give you an insight into Data Science tools and methodologies, which is enough to prepare you to excel in your next role as a Data Scientist. You will earn an industry-recognized certificate from Azure Data Scientist Associate  and Trident Global Services that will attest to your new skills and on-the-job expertise. This Data Science certification training will make you learn R, Python, Machine Learning techniques, data reprocessing, regression, clustering, data analytics with SAS, data visualization with Tableau, and an overview of the Hadoop ecosystem.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="collapseThree">
+        Will this course help me to learn Data Science from scratch?
+      </button>
+    </h2>
+    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Professionals who do not have any prior knowledge of the field can easily begin with this Data Science certification training as you’ll gain a thorough knowledge of the basic concepts as well.
+      </div>
+</div>
+  
+</div>
+
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="collapseThree">
+        Can I pursue a Data Science course after my graduation?
+      </button>
+    </h2>
+    <div id="faq7" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Yes, this Data Science course is suitable for recent graduates as well as experienced professionals who are willing to start a career in data science. There are no specific eligibility requirements to take this course.
+      </div>
+</div>
+  
+</div>
+</div>
+</div>
+<div class=" col-md-4 img-faq">
+<img src="{% static 'assets/images/faq.png' %}" alt="" class="" >
+</div>
+</div>
+</div>
+</section>
+<!--  -->
+
+
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+{% endblock body %}
+
+ 

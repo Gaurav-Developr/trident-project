@@ -1,0 +1,633 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+
+    <!-- Managing Across bg start -->
+<section class="across-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Cloud Computing Essentials Course  </h3>
+                        <p>The cloud computing essentials online training helps you learn the cloud fundamentals, cloud service lifecycle, cloud solution architecture, service transition and transformation, consumer perspective on setting up cloud ecosystem, in-depth SaaS, IaaS, PaaS and more through hands-on projects and exercises.</p>
+                    </div>
+                </div>
+                <div class="row r">
+                    <div class="col-md-4 ">
+                        <div class="r-box bor-right">
+                                <span>4.9</span> Ratings on <img src="{% static 'assets/images/g2.png' %}" alt="" class="mx-1"><a href="#">Reviews 
+                             </a>
+                             <br>
+                             <div class="awee"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 bor-right ">
+                            <span>10k+</span> Students Enrolled
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 succ m-margin">
+                             Guarantee Success
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-ul">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE CONTENT <i class="fas fa-download"></i></button></li>
+                            <!-- <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE BROCHURE <i class="fas fa-download"></i> </button></li> -->
+                            <!-- <li><button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#">VIEW SCHEDULE <i class="fas fa-calendar-alt"></i> </button></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-3">
+     
+        <div class="division">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <span>Drop Your Query</span>
+                </div>
+            </div>
+
+            <form class="myform">
+                 <div class="mt-2">
+               <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+             </div>
+
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Id">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Query">
+             </div>
+
+             <div class="my-t">
+                 <button type="button" class="btn ntn-block btn-primary btn-lg">
+                     Submit
+                 </button>
+             </div>
+            </form>
+</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 One among the top 10 most valuable certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 90% of the people get job after Certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 Experienced and Certified Trainers</p>
+                        </div>
+                     </div>
+                  </div>
+    </div>
+</section>
+<div class="q-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Drop Your Query</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            <li><input type="text" placeholder="City" class="topb-input"></li>
+                            <li><input type="text" placeholder="Enter Your Query" class="topb-input"></li>
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="downloadcourse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Get Course Content
+</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<section class="content-nav d-none-m header-sticky2 header-sticky2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#training-options">Training Options</a></li>
+                    <li><a href="#course-curriculum">Course Curriculum</a></li>
+                    <li><a href="#exam-certification">Exam & Certification</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faqs">Faqs</a></li>
+                </ul>
+                 <div class="entroll">
+                    <button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Enroll Now
+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="world">
+    <div class="container">
+        <div class="row">
+            <h2>World’s #1 <b>Online Bootcamp</b></h2>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-1.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.6</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-2.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-3.png' %}" alt="">
+                        </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<section class="overview" id="overview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 top-over heading-line2 ">
+                <h2>Course <b>Overview</b></h2>
+                <p>Cloud computing is a growing community because of its unique features all the business are turning towards cloud computing more and more over time. Cloud computing gives you better career growth because these skills are high in demand and the supply of that skilled persons are very limited.</p>
+            </div>
+            <div class="col-md-4 watch-over">
+              <!-- <img src="{% static 'assets/images/mx.png' %}" alt=""> 
+              <span class="intro-text">Watch <b>INTRO VIDEO</b></span> --> 
+            </div>
+        </div>
+        <div class="row pt--28">
+            <div class="col-md-8 over-key">
+                <h3>Key Features 
+                    </h3>
+                <ul>
+                    <li>9 Hrs Instructor Led Training</li>
+                    <li>9 Hrs Self-paced Videos</li>
+                    <li>18 Hrs Project & Exercises</li>
+                    <li>Certification</li>
+                    <li>Job Assistance</li>
+                   
+                </ul>
+                <ul>
+                    <li>Flexible Schedule</li>
+                    <li>Lifetime Free Upgrade</li>
+                    <li>Mentor Support</li>
+                    
+                </ul>
+            </div>
+            <div class="col-md-4 over-skill">
+                <h3>Skills Covered</h3>
+                <ul>
+                    <li>Cloud Provider Selection</li>
+                    <li>Application Migration</li>
+                    <li>Performance Testing</li>
+                    <li>Cloud Workloads</li>
+                    <li>Identity Access Management</li>
+                   
+
+                      <!--  -->
+                                     <div class="accordion" id="accordionExample">
+  <div id="cbv" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+     
+                        <li>Autoscaling</li>
+                        <li>Disaster Recovery</li>
+                        <li>Web Services and API</li>
+                        <li>Cloud Migration and Deployment</li>
+                        <li> Database Management</li>
+                        <li> MultiCloud Deployment</li>
+                       
+                        
+   
+  
+  </div>
+      <button class="collapsed ser " type="button" data-bs-toggle="collapse" data-bs-target="#cbv" aria-expanded="false" aria-controls="collapseTwo">
+        <img src="{% static 'assets/images/view.png' %}" alt="">
+      </button>
+    </h2>
+   
+  
+ 
+</div>
+<!--  -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="training-option" id="training-options">
+    <div class="container heading-line2">
+        <h2 class="pb-4">Training <b>Options</b></h2>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>SELF-PACED LEARNING</h3>
+                        <h6>₹ 40,000</h6>
+                        <ul>
+                            <li> Lifetime access to high-quality self-paced eLearning content curated by industry experts
+                            </li>
+                            
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>CORPORATE TRAINING</h3>
+                        <h6>Customized to your team's needs</h6>
+                        <ul>
+                            <li> Blended learning delivery model (self-paced eLearning and/or instructor-led options)
+                            </li>
+                            <li>Flexible pricing options</li>
+                            <li>Enterprise grade Learning Management System (LMS)</li>
+                            <li>Enterprise dashboards for individuals and teams</li>
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Curriculum -->
+<section class="curriculum" id="course-curriculum">
+    <div class="container heading-line2">
+        <h2>Cloud Computong Essentials <b>Curriculum</b></h2>
+        <div class="row">
+            <div class="col-md-8 curriculum-left">
+                <h3>Eligibility</h3>
+                <p>Fast-track your career with this Cloud Computing Certification and its in-depth course curriculum, that covers the key concepts of Azure, AWS, and GCP platforms, and services such as AWS Lambda, Amazon S3, Azure App Services, and many more.</p>
+                <h3>Pre-requisites</h3>
+                <p>There are no prerequisites for taking this certification training course.</p>
+                <div class="faq-section faq-inner-bg">
+            <div class="box-wrapper">
+                <!-- Start Faq Wrapper -->
+                <div class="faq-wrapper">
+                   
+                           
+                                <div class="faq-accordian-style-1 accordion mt-4" id="accordion-1">
+                                    <!-- Start Accordian Single Item -->
+                                   <div class="accordian-single-item accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#demo-5">
+                                                Cloud Computing Essentials 
+                                            </button>
+                                        </h2>
+                                        <div id="demo-5" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                               <div class="faq-accordian-style-1 accordion mt-4" id="accordion-1">
+                                    <!-- Start Accordian Single Item -->
+                                   <div class="accordian-single-item accordion-item">
+                                        
+                                       <div class="timeline p-4 block mb-4">
+                    <div class="tl-item active">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Welcome Class for Caltech PGP Cloud Program</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">This AWS Solutions Architect certification training will enable you to design, plan, and scale AWS implementations utilizing over 70 Cloud Computing services. This Cloud Computing course is aligned with the latest AWS exam featuring Amazon designated best practices.</div>
+<!--                             <div class="tl-date text-muted mt-1">45 minutes ago</div>
+ -->                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">This Cloud Computing certification course prepares you for a career as a certified Azure Cloud Solutions Architect. You will learn how to manage Azure resources, configure and deploy virtual machines, and master Azure Cognitive Services solutions as you become familiar with the Azure platform.</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">This Cloud computing certification course covers training on Azure with more advanced activities on the Azure platform, such as managing Azure resources, configuring and deploying virtual machines and networks, mastering Azure AD, and securing data. You will also learn how to identify data storage options, integrate SaaS service on Azure, author deployments, and more.</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">This Cloud Computing Capstone project will give you an opportunity to implement the skills you learned throughout this Cloud Computing training. Through dedicated mentoring sessions, you’ll learn how to solve a real-world, industry-aligned Cloud problem. The project is the final step in the learning path and will enable you to showcase your expertise in Cloud Computing to future employers.</div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+
+                    
+                    
+                </div>
+                                    </div>
+                                   
+                                    <!-- End Accordian Single Item -->
+                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <!-- End Accordian Single Item -->
+                                </div>
+                            </div>
+                       
+                
+                <!-- End Faq Wrapper -->
+            </div>
+        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="curriculum-form">
+                    <h3>Request more information</h3>
+                    <ul>
+                        <li><input type="text" placeholder="Name*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Email*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Mobile*" class="topb-input"></li>
+                        <li><div class="d-flex flex-row"><aside style="padding-right:10px;">Inquiry for:</aside> <label class="radio"> <input type="radio" name="project" checked> <span> </span> Myself</label>
+                        <label class="radio">
+                         <input type="radio" name="project"> <span></span> Company</label> </div></li>
+                         <li><textarea name="Message" id="" cols="30" rows="3" class="border1"></textarea></li>
+                    </ul>
+                    <div class="submi">
+                        <a href="#">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="managing-testi" id="reviews">
+    <div class="container">
+         <div class="row">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    
+                        <h4>Reviews</h4>
+                    
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Rohit Singh</h4>
+                                    <h6>SAP Basis/HANA/SolMan/FIORI LEAD CONSULTANT</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p">I loved our trainer so much that if there is again an opportunity to attend one more batch with the same trainer, I would love to attend it.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon2.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Rahul Aggarwal</h4>
+                                    <h6>Information Architect</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> My instructor Myra took really interesting sessions and had a unique method of training the class by making it more interactive. She also always confirmed if we understood the concepts. I would like to thank her for her guidance.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Kumar Sanny</h4>
+                                    <h6>Project Manager at Brighter Brain</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p">I have enrolled in TOGAF 9.1 training from Trident Global Services. It has very knowledgeable faculty. The content and way the session was conducted were really good. I highly recommend Trident Global Services.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<section class="faqs" id="faqs">
+    <div class="container">
+        <h4>FAQs</h4>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="accordion" id="accordionExample">
+ 
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="collapseone">
+       What are the eligibility criteria for this Cloud Computing Certification Program in collaboration with Trident Global Services?
+      </button>
+    </h2>
+    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      For admission to this Cloud Computing Certification Training, candidates. Should have a bachelor's degree in any discipline with an average of 50% or higher marks.May have a non-programming background.Are not required to have prior work experience
+        
+ </div>
+</div>
+</div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="collapseTwo">
+        What is the admission process for this Cloud Computing Training Program in collaboration with Trident Global Services?
+      </button>
+    </h2>
+    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <ul>
+           <li>The admission process for this PG Cloud Computing Training Course consists of three simple steps</li>
+           <li>All interested candidates are required to apply through the online application form</li>
+           <li>An admission panel will shortlist the candidates based on their application
+           </li>
+           <li>An offer of admission will be made to the selected candidates and is accepted by the candidates by paying the program fee</li>
+       </ul>
+      </div>
+    </div>
+ </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="collapseThree">
+       Is there any financial aid provided?
+      </button>
+    </h2>
+    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      To ensure money is not a barrier in the path of learning, we offer various financing options to help ensure that this cloud computing course is financially manageable. Please refer to our “Admissions Fee and Financing” section for more details.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="collapseThree">
+        What should I expect from the Caltech Post Graduate Program in Cloud Computing?
+      </button>
+    </h2>
+    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       As a part of this Cloud Computing training course, you will receive the following:
+      <ul>
+          <li>Job-ready cloud skills and hands-on experience with a full suite of Cloud Computing tools</li>
+          <li>A Capstone Project suitable for your portfolio to demonstrate your skills to employers</li>
+          <li>Caltech Post Graduate Program certification</li>
+          <li>Transcript for the Entire Learning Path in the Program</li>
+          <li>Industry recognized certificate from Trident Global Services</li>
+          <li>Lifetime access to all core elearning content created by Trident Global Services</li>
+          <li>CEUs upon completion of the course</li>
+       
+      </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="collapseThree">
+        What certificate will I receive?
+      </button>
+    </h2>
+    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Upon successful completion of this cloud computing certification course, you will be awarded a Post Graduate Program in Cloud Computing certification, along with an industry-recognized certificate from Trident Global Services for all the courses on the learning path.
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class=" col-md-4 img-faq">
+<img src="{% static 'assets/images/faq.png' %}" alt="" class="" >
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!--  -->
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+
+ {% endblock body %}

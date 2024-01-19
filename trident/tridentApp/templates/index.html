@@ -1,0 +1,1999 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    {% block title %}
+    <title>Trident Global Services</title>
+    {% endblock title%}
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static '/assets/images/favicon.ico'%}"> 
+<link rel="stylesheet" href="{% static '/assets/css/magnific.min.css'%}">
+    <link rel="stylesheet" href="{% static '/assets/css/nice-select.min.css'%}">
+    <link rel="stylesheet" href="{% static '/assets/css/owl.min.css'%}">
+    <link rel="stylesheet" href="{% static '/assets/css/slick-slide.min.css'%}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    
+    <!-- CSS 
+    ========================= -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/bootstrap.min.css'%}">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/material-design-iconic-font.min.css' %}">
+    
+    <!-- open for top crousel
+    <link rel="stylesheet" href="assets/css/plugins.css">
+     -->
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/style.css' %}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- Modernizer JS -->
+    <script src="{% static '/assets/js/vendor/modernizr-3.6.0.min.js' %}"></script>
+</head>
+
+<body>
+
+<!-- Main Wrapper Start -->
+<div class="main-wrapper">
+    {% block header %}
+    {% endblock header %}
+   
+    <header class="header-area">
+        <!-- header-top-area -->
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                       
+                        <!-- top-contact-info -->
+                        <div class="top-contact-info">
+                            <ul>
+                                <li><a href="tel:012345676"><i class="zmdi zmdi-phone"></i> +1-800-716-5181</a></li>
+                                <li><a href="mailto:education@ingo.com"><i class="zmdi zmdi-email"></i> support@tridentglobalservice.com</a></li>
+                            </ul>
+                        </div><!--// top-contact-info -->
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="top-info-right">
+                           
+                            <!-- top-social -->
+                            <div class="top-social">
+                                <ul>
+                                   <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div><!--// top-social -->
+                            
+                            <!-- login-and-register -->
+                            <div class="login-and-register">
+                                <ul>
+                                    <li><a href="#" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal2">Login</a></li>
+                                    <!-- <li><a href="#"  type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal3">Register</a></li> -->
+                                </ul>
+                            </div><!--// login-and-register -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--// header-top-area -->
+        
+        <div class="header-bottom-area header-sticky header-sticky">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-lg-3 col-md-5 col-6">
+                        
+                        <!-- logo-area -->
+                        <div class="logo-area">
+                            <a href="{% url 'index' %}"><img src="{% static '/assets/images/logo/logo.png'%}" alt=""></a>
+                        </div><!--// logo-area -->
+                        
+                    </div>
+                    
+                    <div class="col-lg-9 col-md-7 col-6">
+                        
+                        <div class="header-bottom-right">
+                            <!-- main-menu -->
+                            <div class="main-menu">
+                                <nav class="main-navigation">
+                                    <ul>
+                                        <li  class="active"><a href="course-grid.html">All COURSES</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="course-grid.html">Agile and Scrum</a></li>
+                                                <li><a href="course-grid-sidebar.html">DevOps</a></li>
+                                                <li><a href="course-details.html">Big Data</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{% url 'index' %}"> CORPORATE</a></li>
+                                        <li><a href="{% url 'become-trainer' %}">BECOME A TRAINER</a></li>
+                                        
+                                           
+                                        </li>
+                                        
+                                        <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div><!--// main-menu -->
+
+                            <div class="mini-wrap-sidebar">
+                               
+                                <!-- mini-cart-wrap  -->
+                                <!-- <div class="mini-cart-wrap">
+                                   
+                                    <button ><i class="fa fa-user"></i></button>
+                                    
+                                  
+                                   
+                                    
+                                </div> --><!--// main-cart-wrap  -->
+                                
+                                <div class="search-wrap">
+                                    <button class="header-search-toggle"><i class="zmdi zmdi-search"></i></button>
+                                    <div class="header-search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Type and hit enter">
+                                            <button><i class="zmdi zmdi-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Button trigger modal -->
+<button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  DROP A QUERY
+</button>
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                 
+                    <div class="str-mobile_menu relative-position">
+               <div class="str-mobile_menu_button str-open_mobile_menu">
+                  <i class="fas fa-bars"></i>
+               </div>
+               <div class="str-mobile_menu_wrap">
+                  <div class="mobile_menu_overlay str-open_mobile_menu"></div>
+                  <div class="str-mobile_menu_content">
+                     <div class="str-mobile_menu_close str-open_mobile_menu">
+                        <span><i class="fas fa-times"></i></span>
+                     </div>
+                     <div class="m-brand-logo text-center">
+                        <a href="{% url 'index' %}"><img src="{% static '/assets/images/logo/logo-2.png'%}" alt=""></a>
+                     </div>
+                     <nav class="str-mobile-main-navigation clearfix ul-li">
+                        <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                           <li class="dropdown">
+                              <a href="#">All COURSES</a>
+                              <ul class="dropdown-menu clearfix">
+                                 <li><a href="#">Agile and Scrum</a></li>
+                                 <li><a href="#">DevOps</a></li>
+                                 <li><a href="#">Big Data</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#">CORPORATE</a></li>
+                           <li><a href="{% url 'become-trainer' %}">BECOME A TRAINER</a></li>
+                           <li><a href="{% url 'contact' %}" class="cta">CONTACT US</a></li>
+                           <li class="login"><a href="#" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal2">Login</a></li>
+                        </ul>
+
+                     </nav>
+                  </div>
+               </div>
+            </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    {% block body %}
+   
+    <section class="header-video">
+        <video autoplay="" muted="" loop="" playsinline="" class="resiphone" width="100%">
+              <source src="{% static '/assets/video/header.mp4'%}" type="video/mp4">
+              <!-- <source src="vid/hive.webm" type="video/webm">
+              <source src="vid/hive.ogg" type="video/ogg"> -->
+        </video>
+        <div class="header-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>One-Stop Solution For Your Career Growth & <strong>Upskill Yourself</strong></h2>
+                        <h3>World-Class Training & Certification Programs.</h3>
+                        <!-- <div class="single-input-wrap">
+                        <input type="text" placeholder="Search your best courses">
+                        <button><i class="fa fa-search"></i></button>
+                    </div>  -->
+                    <div>
+                       
+                       <ul>
+                        <div  class="bg owl-carousel">
+                            <li class="item">Experience & Certified trainer</li>
+                            <li class="item">Online and Classroom batches</li>
+                            <li class="item">Dedicated Learning Mentors</li>
+                            <li class="item">Gain Job-ready Skills</li>
+                            <li class="item">Guaranteed Job Interviews</li>
+                            <li class="item">Real-life Projects</li>
+                            <li class="item">Get Certified</li>
+                            </div>
+                           <div class="d-block p-btnn">
+                            <a href="#" class="btn-explore">Explore Courses</a>
+                        </div>
+                        </ul>
+                        
+                            
+                        
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Review Area -->
+    <section class="">
+        <div class="container review">
+            <div class="row">
+                        <div class="col-md-3">
+                            <div class="r-box">
+                                <img src="{% static '/assets/images/r-icon-1.png'%}" alt="">
+                              <span>Certified Instructors</span>
+                             
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                        <div class="r-box">
+                            <img src="{% static '/assets/images/r-icon-2.png'%}" alt="">
+                            <span>1:1 With Industry Mentors</span>
+                        </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="r-box">
+                                <img src="{% static '/assets/images/r-icon-3.png'%}" alt="">
+                            <span>100+ Training Partners</span>
+                        </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="r-box">
+                            <img src="{% static '/assets/images/r-icon-4.png'%}" alt="">
+                          <span>Live Projects</span>
+                        </div>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <!-- Online Courses Area Start -->
+
+    <section class="trending-courses-area pd-top-135 pd-bottom-140">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading-line">
+                        <h2>Most Trending Courses</h2>
+                    </div>
+                
+                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="course-slider owl-carousel">
+                                <div class="item">
+                                    <div class="card-online">
+                    <a href="{% url 'digital-marketing' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Digital-Marketing-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Digital Marketing</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Digital Marketing Training</h4>
+                        <span><i class="far fa-clock"></i>40 Hours</span>
+                        <span class="span2"><i class="fab fa-gitter"></i>40+ Modules</span>
+                    <ul>
+                        <li>Job Guarantee Program</li>
+                        <li>13 Tools & 4 Industry Project</li>
+                        <li>Master's Certificate</li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                           <a href="{% url 'digital-marketing' %}" class="view-course-btn">View More</a>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card-online">
+                    <a href="{% url 'data-science' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Data-Science-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Data Science</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4> Data Science Certification Training</h4>
+                        <span><i class="far fa-clock"></i>52 Hours</span>
+                        <span class="span2"><i class="fab fa-gitter"></i>60+ Modules</span>
+                    <ul>
+                        <li>Job Guarantee Program</li>
+                        <li>15 Tools & 4 Industry Project</li>
+                        <li>Master’s Certificate</li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'data-science' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card-online">
+                    <a href="{% url 'machine-learning-training-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Machine-Learning-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Machine Learning</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Machine Learning Certification</h4>
+                        <span><i class="far fa-clock"></i>60 Hours</span>
+                        <span class="span2"><i class="fab fa-gitter"></i>60+ Modules</span>
+                    <ul>
+                        <li>Job Guarantee Program</li>
+                        <li>15 Tools & 4 Industry Project</li>
+                        <li>Master’s Certificate</li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'machine-learning-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card-online">
+                    <a href="{% url 'business-intelligence-training-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Intelligence-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Business Intelligence</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Business Intelligence Certification</h4>
+                        <span><i class="fas fa-calendar-alt"></i> 1 Year </span>
+                        <span class="span2"><i class="fab fa-gitter"></i>13 Courses</span>
+                    <ul>
+                        <li>Job Guarantee Program</li>
+                        <li>15 Tools & 4 Industry Project</li>
+                        <li>Master’s Certificate and Diploma</li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'business-intelligence-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="online-sec">
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12 heading-line">
+                <h2>Online Courses</h2>
+            </div>
+                     
+    </div>
+    <div class="row">
+        <div class="course-slider owl-carousel">
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'agile-scrum-foundation-training-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Agile-Foundation-1.jpg'%}" alt="" class="img-fluid">
+                         <div class="card-top-heading">
+                            <h1>Agile & Scrum</h1>
+                            <h1>Foundation Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4> Agile & Scrum Foundation Training</h4>
+                        
+                    <ul>
+                        <li>2 interactive scenarios</li>
+                        <li>19 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3" >
+                        <div class="col-8">
+                            <a href="{% url 'agile-scrum-foundation-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'agile-scrum-master-training-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Agile-Scrum-Master-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Agile Scrum Master</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4> Agile Scrum Master Training</h4>
+                        
+                    <ul>
+                        <li>5 Case Studies</li>
+                        <li>19 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'agile-scrum-master-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div> 
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'business-analyst-training' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Business Analyst</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Business Analyst  Program</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>14 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'business-analyst-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+         
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'itil-v4-foundation-training-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/ITIL-Foundation-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>ITIL4 Foundation</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>ITIL4 Foundation Training Program</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>20 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'itil-v4-foundation-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             
+              <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'certified-scrum-product-owner-certification-training' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Certified Scrum Product </h1>
+                            <h1>Owner Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Certified Scrum Product Owner Training</h4>
+                        
+                    <ul>
+                        <li>8 Case Studies</li>
+                        <li>21 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'certified-scrum-product-owner-certification-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+            
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'cobit-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Cobit-Certification-Training-Program.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>COBIT® Certification</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>COBIT® 2019 Training</h4>
+                        
+                    <ul>
+                        <li>4 Case Studies</li>
+                        <li>15 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                                <a href="{% url 'cobit-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'itil-intermediate-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>ITIL Intermediate</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>ITIL Intermediate Training</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>32 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'itil-intermediate-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'managing-across-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Managing-life-cycle-training-program.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>ITIL®  Managing Across </h1>
+                            <h1>Life Cycle Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>ITIL®  Managing Across Cycle Training</h4>
+                        
+                    <ul>
+                        <li>7 Case Studies</li>
+                        <li>24 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'managing-across-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'pmp-certification-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>PMP® Certification</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>PMP® Certification Training</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>24 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'pmp-certification-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'prince2-practitioner-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>PRINCE2 Foundation &</h1>
+                            <h1>Practitioner Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>PRINCE2 Foundation & Practitioner </h4>
+                        
+                    <ul>
+                        <li>5 Case Studies</li>
+                        <li>13 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'prince2-practitioner-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'prince-foundation-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>PRINCE2® Foundation</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>PRINCE2® Foundation Training</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>23 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'prince-foundation-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'lean-six-sigma-green-belt' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Lean-6-sigma.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Lean Six Sigma Green </h1>
+                            <h1>Belt Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Lean Six Sigma Green Belt</h4>
+                        
+                    <ul>
+                        <li>7 Case Studies</li>
+                        <li>25 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'lean-six-sigma-green-belt' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'lean-six-sigma-black-belt' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Lean-6-sigma.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Lean Six Sigma Black </h1>
+                            <h1>Belt Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Lean Six Sigma Black Belt</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>12 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'lean-six-sigma-black-belt' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'togaf-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>TOGAF® 9 Combined </h1>
+                            <h1>level 1 and level 2 Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>TOGAF® 9 Combined Training</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>23 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'togaf-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------ -->
+    <div class="row mt-3">
+        <div class="course-slider2 owl-carousel">
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'salesforce-platform-app-builder-certification-training' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Salesforce-App-Builder.jpg'%}" alt="" class="img-fluid">
+                         <div class="card-top-heading">
+                            <h1>Salesforce Platform App</h1>
+                            <h1>Builder Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Salesforce Platform App Builder</h4>
+                        
+                    <ul>
+                        <li>5 Case Studies</li>
+                        <li>15 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3" >
+                        <div class="col-8">
+                            <a href="{% url 'salesforce-platform-app-builder-certification-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'cloud-computing-essentials-course' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Cloud-Computing-Training-Course.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Cloud Computing</h1>
+                            <h1>Essentials Course Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Cloud Computing Essentials</h4>
+                        
+                    <ul>
+                        <li>24 Case Studies</li>
+                        <li>29 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'cloud-computing-essentials-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div> 
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'check-point-security-administration-certification-training'%}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/CheckPoint-Security.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Check Point Security</h1>
+                            <h1>Administration Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Check Point Security Training</h4>
+                        
+                    <ul>
+                       <li>24 Case Studies</li>
+                        <li>30 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'check-point-security-administration-certification-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+         
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'checkpoint-certified-security-expert-certification-training' %}">
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/ITIL-Foundation-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Checkpoint Certified</h1>
+                            <h1>Security Expert Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Checkpoint Security Expert</h4>
+                        
+                    <ul>
+                        <li>4 Case Studies</li>
+                        <li>13 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'checkpoint-certified-security-expert-certification-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             
+              <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'cisa-certification-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/CISA-Certification.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>CISA Certification</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>CISA Certification Training</h4>
+                        
+                    <ul>
+                       <li>8 Case Studies</li>
+                        <li>21 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'cisa-certification-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+            
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'cism-certification-training' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/CISM-Training.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>CISM Certification</h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>CISM Certification Training</h4>
+                        
+                    <ul>
+                        <li>4 Case Studies</li>
+                        <li>14 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'cism-certification-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'certified-ethical-hacking-training' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Ethical-Hacking-CIEH-Training-Program.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>CEH v11 - Ethical </h1>
+                            <h1>Hacking Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>CEH v11 -  Ethical Hacking</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>13 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'certified-ethical-hacking-training' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+              <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'python-and-django-certification' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Ethical-Hacking-CIEH-Training-Program.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Python and Django</h1>
+                            <h1>Certification Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Python and Django Certification</h4>
+                        
+                    <ul>
+                        <li>6 Case Studies</li>
+                        <li>14 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'python-and-django-certification' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'ccnp-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>CCNP certification </h1>
+                            <h1>Training Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>CCNP certification Training</h4>
+                        
+                    <ul>
+                        <li>5 Case Studies</li>
+                        <li>23 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'ccnp-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'ccna-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>CISCO Certified Network</h1>
+                            <h1>Associate  Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>CISCO Network Associate</h4>
+                        
+                    <ul>
+                        <li>3 Case Studies</li>
+                        <li>12 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'ccna-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'azure-aI-engineer-associate-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Azure AI Engineer</h1>
+                            <h1>Associate Training</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Azure AI Engineer Associate</h4>
+                        
+                    <ul>
+                        <li>8 Case Studies</li>
+                        <li>23 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'azure-aI-engineer-associate-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'microsoft-azure-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Azure Solutions </h1>
+                            <h1>Architect Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Azure Solutions Architect</h4>
+                       
+                    <ul>
+                        <li>31 Case Studies</li>
+                        <li>28 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'microsoft-azure-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+
+             <div class="item">
+                <div class="card-online">
+                    <a href="{% url 'microsoft-azure-data-scientist-associate-training-course' %}" >
+                        <div class="card-top-img">   
+                        <img src="{% static '/assets/images/Business-Analyst-1.jpg'%}" alt="" class="img-fluid">
+                        <div class="card-top-heading">
+                            <h1>Azure Data Scientist</h1>
+                            <h1>Associate  Program</h1>
+                        </div>
+                        </div>
+                        <div class="boy">
+                        <h4>Azure Data Scientist Associate</h4>
+                        
+                    <ul>
+                        <li>15 Case Studies</li>
+                        <li>29 PDUs offered</li>
+                        <li>Guarantee Success </li>
+                    </ul>
+                    
+                    <div class="row mt-3">
+                        <div class="col-8">
+                            <a href="{% url 'microsoft-azure-data-scientist-associate-training-course' %}" class="view-course-btn">View More</a>
+                        </div>
+                        <div class="col-4"> 
+                            <h6></h6>
+                        </div>
+                    </div>
+                    </div>
+                      </a>
+                </div>
+             </div>
+             
+        </div>
+    </div>
+  </div>
+    </div>
+</section>
+
+
+    <!-- Project Count Area Start -->
+ <div class="project-count-area ">
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="">
+                        <h4>Highlights</h4>
+                    </div>
+                </div>
+            </div>
+            
+           
+                <div class="row project-count-inner ">
+                  <div class="owl-carousel counterr ">
+                      <div class="item d-flex justify-content-center ">
+                          <div class="col-lg-3 col-sm-6">
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count1.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">45</h3>
+                                    <p>Workshop </p>
+                                </div>
+                               
+                            </div>
+                      </div>
+                  
+                      
+                            <div class="item d-flex justify-content-center ">
+                                
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count2.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">267</h3>
+                                    <p>Training Partner</p>
+                             
+                               
+                            </div>
+                            </div>
+                           <div class="item d-flex justify-content-center ">
+                                <div class="col-lg-3 col-sm-6">
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count3.png'%}" alt="" class="img-fluid">
+                                    <h3 class="">1:1</h3>
+                                    <p>Mentorship</p>
+                                </div>
+                               
+                            </div>
+                           </div>
+                           
+                            <div class="item d-flex justify-content-center ">
+                                <div class="col-lg-3 col-sm-6">
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count4.png'%}" alt="" class="img-fluid">
+                                    <h3 class="">4.9</h3>
+                                    <p>Reviews</p>
+                                </div>
+                              
+                            </div>
+                            </div>
+                     
+                </div>
+                </div>
+           
+        </div>
+    </div> 
+    <!-- Project Count Area End -->
+    
+    <!-- Clients Area -->
+<div class="client">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="client-card">
+                   <a href="{% url 'data-science' %}" class="bnone">
+                        <div class="client-card-img">
+                        <img src="{% static '/assets/images/Speical-Data-Sceince-1.png'%}" alt="" class="img-fluid">
+                    </div>
+                    <div class="client-footer">
+                        <div class="row  pt-4">
+                        <div class="client-top-left col-3">
+                            <img src="{% static '/assets/images/client-logo.png'%}" alt="">
+                        </div>
+                        <div class="client-top-right col-9">
+                            <h3>Master Data Science Training & Certification</h3>
+                        </div>
+                    </div>
+
+                    
+                    <ul>
+                        <li><img src="{% static '/assets/images/client-li-1.png'%}" alt="">120 Hours</li>
+                        <li><img src="{% static '/assets/images/client-li-2.png'%}" alt="">1:1 Thesis Supervision</li>
+                        <li><img src="{% static '/assets/images/study-case.png'%}" alt="">12 Case Studies</li>
+                        <li><img src="{% static '/assets/images/client-cer.png'%}" alt="">2 Certifications</li>
+                        <li><img src="{% static '/assets/images/guarantee-certificate.png'%}" alt="">Guarantee Job Success</li>
+                    </ul>
+                    <div class="text-center client-btn">
+                        <a href="{% url 'data-science' %}">VIEW PROGRAM <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    </div>
+                   </a>
+                </div>
+            </div>
+           <div class="col-md-4">
+                <div class="client-card">
+                  <a href="{% url 'digital-marketing' %}" class="bnone">
+                        <div class="client-card-img">
+                        <img src="{% static '/assets/images/Speical-Online-Business-Management-1.png'%}" alt="" class="img-fluid">
+                    </div>
+                    <div class="client-footer">
+                        <div class="row  pt-4">
+                        <div class="client-top-left col-3">
+                            <img src="{% static '/assets/images/d-marketing.png'%}" alt="">
+                        </div>
+                        <div class="client-top-right col-9">
+                            <h3>Master Digital Marketing Training & Certification</h3>
+                        </div>
+                    </div>
+
+                    
+                    <ul>
+                        <li><img src="{% static '/assets/images/client-li-1.png'%}" alt="">110 Hours</li>
+                        <li><img src="{% static '/assets/images/client-li-2.png'%}" alt="">2 Live Project</li>
+                        <li><img src="{% static '/assets/images/study-case.png'%}" alt="">8 Case Studies</li>
+                        <li><img src="{% static '/assets/images/client-cer.png'%}" alt="">2 Certifications</li>
+                        <li><img src="{% static '/assets/images/guarantee-certificate.png'%}" alt="">Guarantee Job Success</li>
+                    </ul>
+                    <div class="text-center client-btn">
+                        <a href="{% url 'digital-marketing' %}">VIEW PROGRAM <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="b-box">
+                <h2>EVENT</h2>
+                <!-- <p>Transform your team to agile with customize learning method.</p> -->
+                <a href="#">Know more</a>
+                </div>
+                <div class="acco-card">
+                    <div class="acco-img">
+                        <h3>Talk To Us</h3>
+                        <span>We are happy to help you 24/7</span>
+                    </div>
+                    <div class="acco-number">
+                        <span><img src="{% static '/assets/images/live-chat.png'%}" alt=""></span>
+                        <a href="#"><strong>Live Chat</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Testimonials Area -->
+    <div class="testimonials-area grey-bg-image section-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    <div class="section-title-line">
+                        <h4>Trident Global Services Trainers</h4>
+                    </div><!--// section-title -->
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="testimonial-active owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial1.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Karan Chopra</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial1.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial1.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- review -->
+            <div class="row" style="padding-top:70px;">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    <div class="section-title-line2">
+                        <h4 >Reviews</h4>
+                    </div><!--// section-title -->
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Marry Dan</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon2.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Jack</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon2.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--// Testimonials Area -->
+
+        <!--// Why Trident Global Services Area -->
+        <div class="why">
+            <div class="container">
+                <div class="row">
+                    <div class="com-md-12">
+                        <h4>Why Trident Global Services</h4>
+                    </div>
+                    <div class="owl-carousel why2 ">
+                      <div class="item d-flex justify-content-center ">
+                        <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why1.png'%}" alt="" > 
+                       <h3>100% Success Rate</h3>
+                    </div>
+                      </div>
+                      <div class="item d-flex justify-content-center ">
+                        <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why2.png'%}" alt="" > 
+                       <h3>BEST QUALITY</h3>
+                    </div>
+                      </div>
+                      <div class="item d-flex justify-content-center ">
+                        <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why3.png'%}" alt="" > 
+                       <h3>24/7 SERVICES</h3>
+                    </div>
+                      </div>
+                      <div class="item d-flex justify-content-center ">
+                       <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why4.png'%}" alt="" > 
+                       <h3>Certified Trainer </h3>
+                    </div> 
+                      </div>
+                    
+                    
+                    
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    <!-- blogs -->
+    <div class="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="com-md-12">
+                        <h4>Recent Articles</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <img src="{% static '/assets/images/blog1.png'%}" alt="" class="img-fluid">
+                                <div class="blogs-pos">
+                                <h3>CSM Certification vs CSPO Certification</h3>
+                                </div>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p> What is the Scrum framework? Scrum plays a pivotal role in the implementation of Agile &amp; its principles across any organization for the successf....</p>
+                               <i class="fas fa-calendar-alt"></i><span>05 Jul 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <img src="{% static '/assets/images/blog2.png'%}" alt="" class="img-fluid">
+                                <div class="blogs-pos">
+                                <h3>Overview of PMI-ACP Certification</h3>
+                                </div>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p> What do we all aim in life to become? The spontaneous response would be a millionaire. Did I guess it right? Well, maybe or may not be but we want to ....</p>
+                               <i class="fas fa-calendar-alt"></i><span>09 Jul 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <img src="{% static '/assets/images/blog3.png'%}" alt="" class="img-fluid">
+                                <div class="blogs-pos">
+                                <h3>How to Get PMP® Certified?</h3>
+                                </div>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p>The world is big and so is the population. You need to make yourself competitive to find a place to stand. Why this philosophy you may ask? But, I hav....</p>
+                               <i class="fas fa-calendar-alt"></i><span>06 Jul 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+        </div>
+    </div> 
+    {% endblock body %}
+
+    {% block footer %}
+    {% endblock footer %}
+    <!-- Footer Area -->
+    <footer class="footer-area">
+       
+        <!-- Footer Top Area -->
+        <div class="footer-top section-pb section-pt-60">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mt--60">
+                        <div class="footer-single-block">    
+                            <div class="footer-logo">
+                                <a href="{% url 'index' %}"><img src="{% static '/assets/images/logo/logo-2.png'%}" alt=""></a>
+                            </div>
+                            <p class="footer-dec">Trident Global Services is one of the leading IT Training, Digital Solutions          Providers and Digital Marketing Agency.</p>
+                            <ul class="footer-social-link">
+                               <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6  mt--60">
+                        <div class="footer-block">
+                            <h5>Quick Links</h5>
+                            <ul class="footer-list">
+                                <li><a href="{% url 'privacy-policy' %}">Privacy Policy</a></li>
+                                <li><a href="{% url 'disclaimer' %}">Disclaimer</a></li>
+                                <li><a href="{% url 'terms-conditions' %}">Terms & Conditions</a></li>
+                                <li><a href="{% url 'contact' %}">Contact Us</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt--60">
+                        <div class="footer-block">
+                            <h5>Popular Courses</h5>
+                            <ul class="footer-courses">
+                                <li>    
+                                    <div class="courses-image">
+                                        <a href="{% url 'data-science' %}"><img src="{% static '/assets/images/blog/small-tham/blog-01.jpg'%}" alt=""></a>
+                                    </div>
+                                    <div class="courses-nifo">
+                                        <h5><a href="{% url 'data-science' %}">Master Data Science Training Course</a></h5>
+                                        <p>Duration : 120 Hours</p>
+                                    </div>
+                                </li>
+                                <li>    
+                                    <div class="courses-image">
+                                        <a href="{% url 'digital-marketing' %}"><img src="{% static '/assets/images/blog/small-tham/blog-02.jpg'%}" alt=""></a>
+                                    </div>
+                                    <div class="courses-nifo">
+                                        <h5><a href="{% url 'digital-marketing' %}">Master Digital Marketing Training Course</a></h5>
+                                        <p>Duration : 110 Hours</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt--60">
+                        <div class="footer-block">
+                            <h5>NEWSLETTER</h5>
+                            <div class="newsletter-wrap">
+                                <p>Enter your email and we'll send you more information of.</p>
+                                <div class="newsletter-input-box">
+                                    <form action="#">
+                                        <input type="text" placeholder="Your email address">
+                                        <button class="newsletter-button"><i class="zmdi zmdi-mail-send"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--// Footer Top Area -->
+        
+        <!-- Footer-bottom Area -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copy-right pt--10 pb--10 text-center text-white">
+                            <p>Copyright© 2021 <a href="#">Trident Global Services</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--// Footer-botton Area -->
+        
+    </footer>
+     <!-- ------------ Login ------------------------ -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+       <section class="get-in-touch">
+    <div class="modal-content">
+      <div class="modal-header">
+          <div class="modal-logo">
+            <img src="{% static '/assets/images/logo/logo.png'%}" alt="">
+         </div>
+        <h1 class="title">LOGIN</h1>
+        <button type="button" class="btn-close top-bt" data-bs-dismiss="modal" aria-label="Close"></button>
+         
+        </button>
+      </div>
+   
+   <form class="contact-form row">
+      <div class="form-field col-lg-12">
+         <input id="name" class="input-text js-input" type="text" placeholder="Email" required>
+      </div>
+      <div class="form-field col-lg-12 ">
+         <input id="text" class="input-text js-input " placeholder="Password" type="text" required>
+      </div>
+      
+       <div class="modal-foot">
+          <span>or</span>
+          <ul>
+             <li><a href="#"><img src="{% static '/assets/images/google.png'%}" alt="">Continue with Google</a></li>
+             <li><a href="#"><img src="{% static '/assets/images/email.png'%}" alt="">Continue with Email</a></li>
+             <li><a href="#"><img src="{% static '/assets/images/facebook.png'%}" alt="">Continue with Facebook</a></li>
+          </ul>
+          <!-- <div class="regi">Don't have an account ?<a href="#"> <b>Register Now</b></a></div> -->
+       </div>
+      
+      <div class="form-field col-lg-12 text-center">
+         <input class="submit-btn" type="submit" value="Login">
+      </div>
+   </form>
+</section>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    <!-- ------------------------------------ -->
+    <div class="fix-footer header-sticky3">
+        Call Our Course Advisors 
+        <a href="#"> <i class="fas fa-phone-alt"></i>IND : +91-7838300997</a>
+        <a href="#"> US : 1-800-716-5181 (Toll Free)</a>
+    </div>
+    <!--// Footer Area -->
+    <!-- Modal -->
+     <!-- ------------ Login ------------------------ -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+       <section class="get-in-touch">
+    <div class="modal-content">
+      <div class="modal-header">
+          <div class="modal-logo">
+            <img src="{% static '/assets/images/logo/logo.png'%}" alt="">
+         </div>
+        <h1 class="title">LOGIN</h1>
+        <button type="button" class="btn-close top-bt" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+        </button>
+      </div>
+   
+   <form class="contact-form row">
+      <div class="form-field col-lg-12">
+         <input id="name" class="input-text js-input" type="text" placeholder="Email" required>
+      </div>
+      <div class="form-field col-lg-12 ">
+         <input id="text" class="input-text js-input " placeholder="Password" type="text" required>
+      </div>
+      
+       <div class="modal-foot">
+          <span>or</span>
+          <ul>
+             <li><a href="#"><img src="{% static '/assets/images/google.png'%}" alt="">Continue with Google</a></li>
+             <li><a href="#"><img src="{% static '/assets/images/email.png'%}" alt="">Continue with Email</a></li>
+             <li><a href="#"><img src="{% static '/assets/images/facebook.png'%}" alt="">Continue with Facebook</a></li>
+          </ul>
+          <!-- <div class="regi">Don't have an account ?<a href="#"> <b>Register Now</b></a></div> -->
+       </div>
+      
+      <div class="form-field col-lg-12 text-center">
+         <input class="submit-btn" type="submit" value="Login">
+      </div>
+   </form>
+</section>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    <!-- ------------------------------------ -->
+
+ <!-- ---------------- Register-------------------- -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+       <section class="get-in-touch">
+    <div class="modal-content">
+      <div class="modal-header">
+          <div class="modal-logo">
+            <img src="{% static '/assets/images/logo/logo.png'%}" alt="">
+         </div>
+        <h1 class="title">Register</h1>
+        <button type="button" class="btn-close top-bt" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+        </button>
+      </div>
+   
+   <form class="contact-form row">
+      <div class="form-field col-lg-12">
+         <input id="name" class="input-text js-input" type="text" placeholder="Email" required>
+      </div>
+      <div class="form-field col-lg-12 ">
+         <input id="text" class="input-text js-input " placeholder="Phone Number" type="text" required>
+      </div>
+
+      <div class="form-field col-lg-12 ">
+         <input id="text" class="input-text js-input " placeholder="Password" type="text" required>
+      </div>
+      <div class="form-field col-lg-12 ">
+         <input id="text" class="input-text js-input " placeholder="Confirm Password" type="text" required>
+      </div>
+      
+       <!-- <div class="modal-foot">
+          <span>or</span>
+          <ul>
+             <li><a href="#"><img src="assets/images/google.png" alt="">Continue with Google</a></li>
+             <li><a href="#"><img src="assets/images/email.png" alt="">Continue with Email</a></li>
+             <li><a href="#"><img src="assets/images/facebook.png" alt="">Continue with Facebook</a></li>
+          </ul>
+       </div> -->
+      
+      <div class="form-field col-lg-12 text-center">
+         <input class="submit-btn" type="submit" value="Register">
+      </div>
+   </form>
+</section>
+      </div>
+     
+    </div>
+  </div>
+</div>
+    <!-- ------------------------------------ -->
+
+<div class="q-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static '/assets/images/msg.png'%}" alt="">
+                        <span>Drop Your Query</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            <li><input type="text" placeholder="City" class="topb-input"></li>
+                            <li><input type="text" placeholder="Enter Your Query" class="topb-input"></li>
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- Main Wrapper End -->
+
+
+<!-- jQuery JS -->
+<script src="{% static '/assets/js/vendor/jquery-3.6.0.min.js' %}"></script>
+<script src="{% static '/assets/js/vendor/jquery-migrate-3.3.0.min.js' %}"></script>
+<!-- Popper JS -->
+<script src="{% static '/assets/js/popper.min.js' %}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static '/assets/js/bootstrap.min.js' %}"></script>
+<!-- Plugins JS -->
+<script src="{% static '/assets/js/plugins.js' %}"></script>
+<script src="{% static '/assets/js/owl.min.js' %}"></script>
+    <script src="{% static '/assets/js/slick-slider.min.js' %}"></script>
+    <script src="{% static '/assets/js/wow.min.js' %}"></script>
+        <script src="{% static '/assets/js/magnific.min.js' %}"></script>
+
+<!-- Ajax Mail -->
+<script src="{% static '/assets/js/ajax-mail.js' %}"></script>
+<!-- Main JS -->
+<script src="{% static '/assets/js/main.js' %}"></script>
+    <script src="{% static '/assets/js/slider-manage.js' %}"></script>
+    <script src="{% static '/assets/js/nav.js' %}"></script>
+
+
+</body>
+
+
+</html>

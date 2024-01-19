@@ -1,0 +1,1989 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Trident Global Services</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static '/assets/images/favicon.ico'%}"> 
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    
+    <!-- CSS 
+    ========================= -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/bootstrap.min.css'%}">
+    
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/material-design-iconic-font.min.css'%}">
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/plugins.css'%}">
+    
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="{% static '/assets/css/style.css'%}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- Modernizer JS -->
+    <script src="{% static '/assets/js/vendor/modernizr-3.6.0.min.js'%}"></script>
+</head>
+
+<body>
+
+<!-- Main Wrapper Start -->
+<div class="main-wrapper">
+   
+    <header class="header-area">
+        <!-- header-top-area -->
+        <div class="header-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                       
+                        <!-- top-contact-info -->
+                        <div class="top-contact-info">
+                            <ul>
+                                <li><a href="tel:012345676"><i class="zmdi zmdi-phone"></i> +1-800-716-5181</a></li>
+                                <li><a href="mailto:education@ingo.com"><i class="zmdi zmdi-email"></i> support@tridentglobalservice.com</a></li>
+                            </ul>
+                        </div><!--// top-contact-info -->
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="top-info-right">
+                           
+                            <!-- top-social -->
+                            <div class="top-social">
+                                <ul>
+                                   <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    
+                                    <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div><!--// top-social -->
+                            
+                            <!-- login-and-register -->
+                            <div class="login-and-register">
+                                <ul>
+                                    <li><a href="#" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal2">Login</a></li>
+                                    <li><a href="login-register.html">Register</a></li>
+                                </ul>
+                            </div><!--// login-and-register -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--// header-top-area -->
+        
+        <div class="header-bottom-area header-sticky header-sticky">
+            <div class="container">
+                <div class="row">
+                   
+                    <div class="col-lg-3 col-md-5 col-6">
+                        
+                        <!-- logo-area -->
+                        <div class="logo-area">
+                            <a href="index.html"><img src="{% static '/assets/images/logo/logo.png'%}" alt=""></a>
+                        </div><!--// logo-area -->
+                        
+                    </div>
+                    
+                    <div class="col-lg-9 col-md-7 col-6">
+                        
+                        <div class="header-bottom-right">
+                            <!-- main-menu -->
+                            <div class="main-menu">
+                                <nav class="main-navigation">
+                                    <ul>
+                                        <li  class="active"><a href="course-grid.html">All COURSES</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="course-grid.html">Agile and Scrum</a></li>
+                                                <li><a href="course-grid-sidebar.html">DevOps</a></li>
+                                                <li><a href="course-details.html">Big Data</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="index.html"> CORPORATE</a></li>
+                                        <li><a href="become-trainer.html">BECOME A TRAINER</a></li>
+                                        
+                                        <li><a href="blog-grid.html">BLOG</a>
+                                           
+                                        </li>
+                                        
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </nav>
+                            </div><!--// main-menu -->
+
+                            <div class="mini-wrap-sidebar">
+                               
+                                <!-- mini-cart-wrap  -->
+                                <div class="mini-cart-wrap">
+                                   
+                                    <button ><i class="fa fa-user"></i></button>
+                                    
+                                    <!-- mini-cart-wrap -->
+                                   
+                                    
+                                </div><!--// main-cart-wrap  -->
+                                
+                                <div class="search-wrap">
+                                    <button class="header-search-toggle"><i class="zmdi zmdi-search"></i></button>
+                                    <div class="header-search-form">
+                                        <form action="#">
+                                            <input type="text" placeholder="Type and hit enter">
+                                            <button><i class="zmdi zmdi-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Button trigger modal -->
+<button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  DROP A QUERY
+</button>
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                     <div class="col">
+                        <!-- mobile-menu start -->
+                        <div class="mobile-menu d-block d-lg-none"></div>
+                        <!-- mobile-menu end -->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    
+    <!-- Hero Slider start -->
+    <div class="hero-slider">
+       
+        <div class="hero-slider-active owl-carousel">
+           
+            <div class="singleSlide" data-black-overlay="3">
+                <div class="itemBg">
+                    <img src="{% static '/assets/images/slider/background-image-2.jpg'%}" alt="">
+                </div>
+                <!-- Hero Content One Start -->
+                <div class="container">
+                    <div class="hero-content-one">
+                        <div class="row">
+                            <div class="col"> 
+                                <div class="slider-text-info">
+                                    <h1>Instructor-Led Classroom and Online Training</h1>
+<!--                                     <a href="about.html" class="btn slider-btn uppercase"><span>About us</span></a>
+ -->                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8" style="margin:0 auto;">
+                                <center>
+                                    <div id="courses_logo_header" class="row parent-ban">
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#"></a>
+                                            <h6>CSM</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                           <a href="#" class="cspo"></a>
+                                           <h6>CSPO</h6> 
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="dev"></a>
+                                            <h6>DevOps</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="saf"></a>
+                                            <h6>SAFe®</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmi"></a>
+                                            <h6>PMI-ACP</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmp"></a>
+                                            <h6>PMP</h6>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Content One End -->
+            </div>
+            
+            <div class="singleSlide" data-black-overlay="3">
+                <div class="itemBg">
+                    <img src="{% static '/assets/images/slider/background-image-3.jpg'%}" alt="">
+                </div>
+                <!-- Hero Content One Start -->
+                <div class="container">
+                    <div class="hero-content-one">
+                        <div class="row">
+                            <div class="col"> 
+                                <div class="slider-text-info">
+                                    <h1>Instructor-Led Classroom and Online Training</h1>
+<!--                                     <a href="about.html" class="btn slider-btn uppercase"><span>About us</span></a>
+ -->                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8" style="margin:0 auto;">
+                                <center>
+                                    <div id="courses_logo_header" class="row parent-ban">
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#"></a>
+                                            <h6>CSM</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                           <a href="#" class="cspo"></a>
+                                           <h6>CSPO</h6> 
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="dev"></a>
+                                            <h6>DevOps</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="saf"></a>
+                                            <h6>SAFe®</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmi"></a>
+                                            <h6>PMI-ACP</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmp"></a>
+                                            <h6>PMP</h6>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Content One End -->
+            </div>
+            
+            <div class="singleSlide" data-black-overlay="3">
+                <div class="itemBg">
+                    <img src="{% static '/assets/images/slider/background-image-1.jpg'%}" alt="">
+                </div>
+                <!-- Hero Content One Start -->
+                <div class="container">
+                     <div class="hero-content-one">
+                        <div class="row">
+                            <div class="col"> 
+                                <div class="slider-text-info">
+                                    <h1>Instructor-Led Classroom and Online Training</h1>
+<!--                                     <a href="about.html" class="btn slider-btn uppercase"><span>About us</span></a>
+ -->                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8" style="margin:0 auto;">
+                                <center>
+                                    <div id="courses_logo_header" class="row parent-ban">
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#"></a>
+                                            <h6>CSM</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                           <a href="#" class="cspo"></a>
+                                           <h6>CSPO</h6> 
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="dev"></a>
+                                            <h6>DevOps</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="saf"></a>
+                                            <h6>SAFe®</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmi"></a>
+                                            <h6>PMI-ACP</h6>
+                                        </div>
+                                        <div class="ban-img col-6 col-sm-4 col-lg-2 child-ban">
+                                            <a href="#" class="pmp"></a>
+                                            <h6>PMP</h6>
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero Content One End -->
+            </div>
+            
+        </div>
+    </div>
+    <!-- Hero Slider end -->
+    
+    <!-- Review Area -->
+    <section class="review">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8"style="margin:0 auto;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="r-box">
+                                <span>4.9</span> Ratings on <img src="{% static '/assets/images/g.png'%}" alt="" class="mx-1"><a href="#">Reviews 
+                             </a>
+                             <br>
+                             <img src="{% static '/assets/images/star.png'%}" alt="" style="margin-top:-20px;">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        <div class="r-box">
+                            <div class="r-fig"><img src="{% static '/assets/images/hand.png'%}" alt=""></div>
+                            <div class="r-text">
+                                <span>20,000+</span><br>
+                                <p style="margin-top:-10px;">Trained</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="r-box">
+                            <div class="r-fig"><img src="{% static '/assets/images/flag.png'%}" alt=""></div>
+                            <div class="r-text">
+                                <span>100 %</span><br>
+                                <p style="margin-top:-10px;">Success Rate</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Online Courses Area Start -->
+<section class="online-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 heading-line">
+                <h2>Online Courses</h2>
+            </div>
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/o1.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Managing Across the Life Cycle <br>(MALC) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 326 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>10 Hours of self-placed learning</li>
+                                          <li><i class="fas fa-check"></i>Exam fee included</li>
+                                          <li><i class="fas fa-check"></i>2 sample test papers</li>
+                                        
+                                        </ul>
+                                        <a href="managing-across-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/pmp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Project Management Professional <br>(PMP) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Resource allocation</li>
+                                          <li><i class="fas fa-check"></i>Project cost estimating</li>
+                                        
+                                        </ul>
+                                        <a href="pmp-certification-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Agile Scrum Foundation <br>(ASF)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>5+ hours  Videos</li>
+                                          <li><i class="fas fa-check"></i>instructor-led training</li>
+                                        
+                                        </ul>
+                                        <a href="agile-scrum-foundation-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Agile Scrum Master <br>(ASM)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>5+ hours videos</li>
+                                          <li><i class="fas fa-check"></i>One live project </li>
+                                        
+                                        </ul>
+                                        <a href="agile-scrum-master-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Six Sigma Green Belt <br>(LSSGB) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 920 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="lean-six-sigma-green-belt.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Six Sigma Black Belt <br>(LSSBB)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 12335 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="lean-six-sigma-black-belt.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">PRINCE2® Foundation <br>(PF)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 2345 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="prince-foundation-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">TOGAF® <br>(T) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="togaf-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Certified Ethical Hacking  <br>(CEH v11)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 50 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="certified-ethical-hacking .html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/r.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">COBIT® 2019<br>(C) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 30 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="cobit-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Cloud Computing Essentials <br>(CCE) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 326 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="cloud-computing-essentials-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/aws.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">CISA Certification Training <br>(CISA) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 2345 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="cisa-certification-training-course.html">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/dockers.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Dockers Training <br>(Dockers) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/hadoop-admin.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Hadoop Administrator Course <br>(Hadoop Admin)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 36 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/icp-acc.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">ICP Agile Certified Coaching <br>(ICP - ACC) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 456 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/jenkins.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Jenkins Training <br>(Jenkins)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 45 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/jira.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">JIRA <br>(Jira)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/kmp-1.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Kanban <br>(KMP-1) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 79 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/kmp2.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Kanban (KMP - 2) <br>(KMP 2) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/kubernets.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Kubernetes Training <br>(Kubernetes) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 57 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/safe-r.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Leading SAFe® Agilist <br>(SAFe®)   </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 1578 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/lmp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Portfolio Management <br>(LPM)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 326 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/lssbb.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Six Sigma Black Belt <br>(LSSBB) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 15 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/lssgb.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Six Sigma Green Belt <br>(LSSGB)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/lssmp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Lean Six Sigma Master’s Program <br>(LSSMP) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/ml.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Machine Learning <br>(ML) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 90 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/pmi-acp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">PMI-Agile Certified Practitioner <br>(PMI-ACP)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 1278 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/pmp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">PMP Certification <br>(PMP)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 5676 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/prince2.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">PRINCE2 Foundation and Practitioner <br>(PRINCE2) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/psm.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Professional Scrum Master <br>(PSM) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 326 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/psm2.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">Professional Scrum Master (PSM 2) <br>(PSM 2) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/sasm.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">SAFe® Advanced Scrum Master <br>(SASM) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/sp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">SAFe® for Teams <br>(SP) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/safe-pomp.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">SAFe® Product Owner/Product Manager <br>(SAFe® POPM)  </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/ssm.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">SAFe® Scrum Master <br>(SSM) </h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+             <div class="col-md-4  online-box">
+                 <div class="cardp">
+                                    <div class="imgBx">
+                                        <div class="text-center">
+                                        <img src="{% static '/assets/images/sas.png'%}" alt="" class="img-fluid" ></div>
+                                        <h2 class="heading-p">SAS Certification <br>(SAS)</h2>
+                                         <div class="course-rating">
+                              <table>
+                                 <tr>
+                                    <td> Course Rating: </td>
+                                    <td><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></td>
+                                 </tr>
+                                 <tr>
+                                    <td> Trained Professional: </td>
+                                    <td> 0 </td>
+                                 </tr>
+                              </table>
+                           </div>
+                                    </div>
+                                    <div class="details">
+                                        <h2>KEY FEATURES</h2>
+
+                                       <ul class="list-mon">
+                                          <li><i class="fas fa-check"></i>Admission Inquiry</li>
+                                          <li><i class="fas fa-check"></i>Admission Form</li>
+                                        
+                                        </ul>
+                                        <a href="#">VIEW DETAILS</a>
+                                    </div>
+                                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<div class="container">
+<div class="row">
+    <div class="col-sm-3">
+        <div class="course-box">
+            <a href="#">
+            <div class="course-box-top">
+                <img src="{% static '/assets/images/course1.jpg'%}" alt="" class="img-fluid">
+            </div>
+            <div class="course-box-bot">
+                <h3>Managing Across the Life Cycle</h3>
+                   <h5>(MALC)</h5>
+                   <span>Course</span>
+                
+
+            </div>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- Project Count Area Start -->
+ <div class="project-count-area ">
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="">
+                        <h4>Highlights</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-count-inner">
+                <div class="row">
+                    <div class="col-lg-10m-auto">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count1.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">532</h3>
+                                    <p>WORKSHOPS</p>
+                                </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count2.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">22155</h3>
+                                    <p>TRAINED</p>
+                                </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count3.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">25</h3>
+                                    <p>CITIES</p>
+                                </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                               
+                                <div class="counter text-center">
+                                    <img src="{% static '/assets/images/count4.png'%}" alt="" class="img-fluid">
+                                    <h3 class="counter-active">1211</h3>
+                                    <p>TESTIMONIALS</p>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Project Count Area End -->
+    
+    <!-- Clients Area -->
+<div class="client">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h4>Clients</h4>
+                <p>Here are just a few of industries-leading companies our graduates have found work with:</p>
+                <img src="{% static '/assets/images/spon.png'%}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4 b-box">
+                <h2>Corporate Training</h2>
+                <p>Transform your team to agile with customize learning method.</p>
+                <a href="#">Know more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Testimonials Area -->
+    <div class="testimonials-area grey-bg-image section-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    <div class="section-title-line">
+                        <h4>StarAgile Trainers</h4>
+                    </div><!--// section-title -->
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="testimonial-active owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial-author-2.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial-author-2.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            <div class="testimonial-image">
+                                <img src="{% static '/assets/images/testimonial/testimonial-author-1.png'%}" alt="">
+                            </div>
+                            <div class="testimonial-info">
+                                <div class="autor-info">
+                                    <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                </div>
+                                <p> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- review -->
+            <div class="row" style="padding-top:70px;">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    <div class="section-title-line2">
+                        <h4>Reviews</h4>
+                    </div><!--// section-title -->
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon2.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static '/assets/images/review-icon.png'%}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Walsh</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> If you are going to use a passage of Lorem Ipsum, you need to be
+                                    sure there isn't anything embarrassing hidden in the middle of text. All  Lorem
+                                    Ipsum gators on the Internet tend to repeat</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--// Testimonials Area -->
+
+        <!--// Why Trident Global Services Area -->
+        <div class="why">
+            <div class="container">
+                <div class="row">
+                    <div class="com-md-12">
+                        <h4>Why Trident Global Services</h4>
+                    </div>
+                    <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why1.png'%}" alt="" > 
+                       <h3>100% PASS RATE</h3>
+                    </div>
+                    <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why2.png'%}" alt="" > 
+                       <h3>BEST QUALITY</h3>
+                    </div>
+                    <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why3.png'%}" alt="" > 
+                       <h3>24/7 SERVICES</h3>
+                    </div>
+                    <div class="col-md-3 why-box">
+                       <img src="{% static '/assets/images/why4.png'%}" alt="" > 
+                       <h3>MONEY BACK GUARANTEE</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- blogs -->
+    <div class="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="com-md-12">
+                        <h4>Recent Articles</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <h3>CSM Certification vs CSPO Certification</h3>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p> What is the Scrum framework?Scrum plays a pivotal role in the implementation of Agile &amp; its principles across any organization for the successf....</p>
+                               <i class="fas fa-calendar-alt"></i><span>05 Jul 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <h3>Overview of PMI-ACP Certification</h3>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p> What do we all aim in life to become? The spontaneous response would be a millionaire. Did I guess it right? Well, maybe or may not be but we want to ....</p>
+                               <i class="fas fa-calendar-alt"></i><span>09 Jul 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="blogs-box">
+                            <div class="blogs-top">
+                                <h3>Why Project Manager should get PMP Certification?</h3>
+                            </div>
+                            <div class="blogs-bottom">
+                               <p> The world is big and so is the population. You need to make yourself competitive to find a place to stand. Why this philosophy you may ask? But, I hav....</p>
+                               <i class="fas fa-calendar-alt"></i><span>06 Aug 2021</span>
+                               <a href="#">Read More</a>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="footer-area">
+       
+        <!-- Footer Top Area -->
+        <div class="footer-top section-pb section-pt-60">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 mt--60">
+                        <div class="footer-single-block">    
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="{% static '/assets/images/logo/logo-2.png'%}" alt=""></a>
+                            </div>
+                            <p class="footer-dec">If you are going to use a passage LorIsum, you anythirassing hidden in the middle 
+                            of text. Iators on the Internet tend to.</p>
+                            <ul class="footer-social-link">
+                               <li><a href="#"><i class="zmdi zmdi-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="zmdi zmdi-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6  mt--60">
+                        <div class="footer-block">
+                            <h5>Quick Links</h5>
+                            <ul class="footer-list">
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="disclaimer.html">Disclaimer</a></li>
+                                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt--60">
+                        <div class="footer-block">
+                            <h5>Popular Courses</h5>
+                            <ul class="footer-courses">
+                                <li>    
+                                    <div class="courses-image">
+                                        <a href="data-science.html"><img src="{% static '/assets/images/blog/small-tham/blog-01.jpg'%}" alt=""></a>
+                                    </div>
+                                    <div class="courses-nifo">
+                                        <h5><a href="data-science.html">Master Data Science Training Course</a></h5>
+                                        <p>Duration : 120 Hours</p>
+                                    </div>
+                                </li>
+                                <li>    
+                                    <div class="courses-image">
+                                        <a href="digital-marketing.html"><img src="{% static '/assets/images/blog/small-tham/blog-02.jpg'%}" alt=""></a>
+                                    </div>
+                                    <div class="courses-nifo">
+                                        <h5><a href="digital-marketing.html">Master Digital Marketing Training Course</a></h5>
+                                        <p>Duration : 110 Hours</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt--60">
+                        <div class="footer-block">
+                            <h5>NEWSLETTER</h5>
+                            <div class="newsletter-wrap">
+                                <p>Enter your email and we'll send you more information of.</p>
+                                <div class="newsletter-input-box">
+                                    <form action="#">
+                                        <input type="text" placeholder="Your email address">
+                                        <button class="newsletter-button"><i class="zmdi zmdi-mail-send"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div><!--// Footer Top Area -->
+        
+        <!-- Footer-bottom Area -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copy-right pt--10 pb--10 text-center text-white">
+                            <p>Copyright© 2021 <a href="#">Trident Global Services</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--// Footer-botton Area -->
+        
+    </footer>
+    <!--// Footer Area -->
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Main Wrapper End -->
+
+<!-- JS
+============================================ -->
+
+<!-- jQuery JS -->
+<script src="{% static '/assets/js/vendor/jquery-3.6.0.min.js'%}"></script>
+<script src="{% static '/assets/js/vendor/jquery-migrate-3.3.0.min.js'%}"></script>
+<!-- Popper JS -->
+<script src="{% static '/assets/js/popper.min.js'%}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static '/assets/js/bootstrap.min.js'%}"></script>
+<!-- Plugins JS -->
+<script src="{% static '/assets/js/plugins.js'%}"></script>
+<!-- Ajax Mail -->
+<script src="{% static '/assets/js/ajax-mail.js'%}"></script>
+<!-- Main JS -->
+<script src="{% static '/assets/js/main.js'%}"></script>
+
+
+</body>
+
+
+</html>

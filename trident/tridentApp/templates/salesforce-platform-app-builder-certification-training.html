@@ -1,0 +1,768 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+
+    <!-- Managing Across bg start -->
+<section class="across-main bg-cloud">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Salesforce Platform App Builder Certification Training</h3>
+                        <p>This course covers the fundamental concepts that you need to know in order to pass the Platform App Builder Certification Exam, everything from understanding Salesforce core concepts to building apps on the platform, to set up security and access permissions, to creating workflow automation procedures.</p>
+                    </div>
+                </div>
+                <div class="row r">
+                    <div class="col-md-4 ">
+                        <div class="r-box bor-right">
+                                <span>4.9</span> Ratings on <img src="{% static 'assets/images/g2.png' %}" alt="" class="mx-1"><a href="#">Reviews 
+                             </a>
+                             <br>
+                             <div class="awee"><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fas fa-star-half-alt"></span></div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 bor-right ">
+                            <span>13k+</span> Students Enrolled
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="r-box2 succ m-margin">
+                             Guarantee Success
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row bg-ul">
+                    <div class="col-md-12">
+                        <ul>
+                            <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE CONTENT <i class="fas fa-download"></i></button></li>
+                            <!-- <li><button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#downloadcourse">DOWNLOAD COURSE BROCHURE <i class="fas fa-download"></i> </button></li> -->
+                            <!-- <li><button type="button" class="btn active" data-bs-toggle="modal" data-bs-target="#">VIEW SCHEDULE <i class="fas fa-calendar-alt"></i> </button></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-3">
+     
+        <div class="division">
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <span>Drop Your Query</span>
+                </div>
+            </div>
+
+            <form class="myform">
+                 <div class="mt-2">
+               <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+             </div>
+
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Id">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City">
+             </div>
+             <div class="mt-2">
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Query">
+             </div>
+
+             <div class="my-t">
+                 <button type="button" class="btn ntn-block btn-primary btn-lg">
+                     Submit
+                 </button>
+             </div>
+            </form>
+</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="row">
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 One among the top 10 most valuable certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 90% of the people get job after Certification</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4 ">
+                        <div class="course-card2">
+                           <p>💡 Experienced and Certified Trainers</p>
+                        </div>
+                     </div>
+                  </div>
+    </div>
+</section>
+<div class="q-modal">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Drop Your Query</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            <li><input type="text" placeholder="City" class="topb-input"></li>
+                            <li><input type="text" placeholder="Enter Your Query" class="topb-input"></li>
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+     
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade" id="downloadcourse" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div class="bg-form2">
+                    <div class="topf">
+                        <img src="{% static 'assets/images/msg.png' %}" alt="">
+                        <span>Get Course Content
+</span>
+                    </div>
+                    <div class="topb">
+                        <ul>
+                            <li><input type="text" placeholder="Name" class="topb-input"></li>
+                            <li><input type="text" placeholder="Email id" class="topb-input"></li>
+                            <li><input type="text" placeholder="Phone Number" class="topb-input"></li>
+                            
+                        </ul>
+                        <div class="pop-btn">
+                            <a href="#">Submit</a>
+                        </div>
+                    </div>
+                </div>      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<section class="content-nav d-none-m header-sticky2 header-sticky2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#training-options">Training Options</a></li>
+                    <li><a href="#course-curriculum">Course Curriculum</a></li>
+                    <li><a href="#exam-certification">Exam & Certification</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faqs">Faqs</a></li>
+                </ul>
+                 <div class="entroll">
+                    <button type="button" class="btn d-none-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Enroll Now
+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="world">
+    <div class="container">
+        <div class="row">
+            <h2>World’s #1 <b>Online Bootcamp</b></h2>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-1.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box bor-right ">
+                            <span>4.6</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-2.png' %}" alt="">
+                        </div>
+            </div>
+            <div class="col-md-4">
+                <div  class="wo-box">
+                            <span>4.5</span>
+                            <i class="fas fa-star"></i>
+                            <img src="{% static 'assets/images/w-3.png' %}" alt="">
+                        </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<section class="overview" id="overview">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 top-over heading-line2 ">
+                <h2>Salesforce Developer <b>Overview</b></h2>
+                <p>Salesforce is the world’s number one customer relationship management (CRM) tool and its global market share is more than 51 percent. By 2022, the Salesforce industry is expected to create 3.3 million jobs across the world getting certified in Salesforce will qualify you for one of them.</p>
+            </div>
+            <div class="col-md-4 watch-over">
+              <!-- <img src="{% static 'assets/images/mx.png' %}" alt=""> 
+              <span class="intro-text">Watch <b>INTRO VIDEO</b></span>  -->
+              <img src="{% static 'assets/images/sales-aside.png' %}" alt=""> 
+            </div>
+        </div>
+        <div class="row pt--28">
+            <div class="col-md-8 over-key">
+                <h3>Key Features 
+                    </h3>
+                <ul>
+                    <li>10 hours of e-learning content</li>
+                    <li>4 projects, 15 case studies, 4 simulation tests, 14 quizzes & more</li>
+                </ul>
+                <ul>
+                    <li>Course aligned with the official Salesforce Certification Guide</li>
+                    <li>Course completion certificate
+                </ul>
+            </div>
+            <div class="col-md-4 over-skill">
+                <h3>Skills Covered</h3>
+                <ul>
+                    <li>Field types</li>
+                    <li>Buttons links and actions</li>
+                    <li>Salesforce objects and chatter</li>
+                    <li>Deploy applications on Forcecom</li>
+                    <li>Visual Workflow</li>
+                   
+                      <!--  -->
+                                     <div class="accordion" id="accordionExample">
+  <div id="cbv" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+     
+                        <li>Process Builder Schema builder</li>
+                    <li>Security controls</li>
+                    <li>Validation rules</li>
+                    <li>Sandbox</li>
+                    <li>Dashboards</li>
+                    <li>Lightning components</li>
+                       
+                        
+   
+  
+  </div>
+      <button class="collapsed ser " type="button" data-bs-toggle="collapse" data-bs-target="#cbv" aria-expanded="false" aria-controls="collapseTwo">
+        <img src="{% static 'assets/images/view.png' %}" alt="">
+      </button>
+    </h2>
+   
+  
+ 
+</div>
+<!--  -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="training-option" id="training-options">
+    <div class="container heading-line2">
+        <h2 class="pb-4">Training <b>Options</b></h2>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>SELF-PACED LEARNING</h3>
+                        <h6>₹ 22,999</h6>
+                        <ul>
+                            <li>Lifetime access to high-quality self-paced eLearning content curated by industry experts
+                            </li>
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="training-box">
+                        <h3>CORPORATE TRAINING</h3>
+                        <h6>Customized to your team's needs</h6>
+                        <ul>
+                            <li> Blended learning delivery model (self-paced eLearning and/or instructor-led options)
+                            </li>
+                            <li>Flexible pricing options</li>
+                            <li>Enterprise grade Learning Management System (LMS)</li>
+                            <li>Enterprise dashboards for individuals and teams</li>
+                            <li>24x7 learner assistance and support</li>
+                           
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Curriculum -->
+<section class="curriculum" id="course-curriculum">
+    <div class="container heading-line2">
+        <h2>Salesforce Developer <b>Curriculum</b></h2>
+        <div class="row">
+            <div class="col-md-8 curriculum-left">
+                <h3>Eligibility</h3>
+                <p>This Salesforce Platform App Builder Certification course is suitable for individuals looking to build a career in Salesforce, app developers, system administrators, sales representatives, and product managers.</p>
+                <h3>Pre-requisites</h3>
+                <p>There are no prerequisites for the Salesforce App Builder training or to take the Salesforce DEV 401 examination.</p>
+                <div class="faq-section faq-inner-bg">
+            <div class="box-wrapper">
+                <!-- Start Faq Wrapper -->
+                <div class="faq-wrapper">
+                   
+                           
+                                <div class="faq-accordian-style-1 accordion mt-4" id="accordion-1">
+                                    <!-- Start Accordian Single Item -->
+                                   <div class="accordian-single-item accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#demo-5">
+                                                Salesforce App Builder Certification
+                                            </button>
+                                        </h2>
+                                        <div id="demo-5" class="accordion-collapse collapse" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                               <div class="faq-accordian-style-1 accordion mt-4" id="accordion-1">
+                                    <!-- Start Accordian Single Item -->
+                                   <div class="accordian-single-item accordion-item">
+                                        
+                                       <div class="timeline p-4 block mb-4">
+                    <div class="tl-item active">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 00: Introduction to Salesforce App Builder Course</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 01: Introduction to Salesforce</div>
+<!--                             <div class="tl-date text-muted mt-1">45 minutes ago</div>
+ -->                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 02: Organisational Setup</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 03: Data Modeling and Management</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 04: Security and Access</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 05: Process Automation</div>
+                            
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 06: Lightning App Builder</div>
+                        </div>
+                    </div>
+                     <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 07: Lightning App</div>
+                        </div>
+                    </div>
+                     <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 08 Lightning Web Components</div>
+                        </div>
+                    </div>
+                     <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 09: Lightning Reports and Dashboards</div>
+                        </div>
+                    </div>
+                     <div class="tl-item">
+                        <div class="tl-dot b-primary"></div>
+                        <div class="tl-content">
+                            <div class="">Lesson 10 App Deployment</div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                                    </div>
+                                   
+                                    <!-- End Accordian Single Item -->
+                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                    <!-- End Accordian Single Item -->
+                                </div>
+                            </div>
+                       
+                
+                <!-- End Faq Wrapper -->
+            </div>
+        </div>
+            </div>
+            <div class="col-md-4">
+                <div class="curriculum-form">
+                    <h3>Request more information</h3>
+                    <ul>
+                        <li><input type="text" placeholder="Name*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Email*" class="topb-input"></li>
+                        <li><input type="text" placeholder="Mobile*" class="topb-input"></li>
+                        <li><div class="d-flex flex-row"><aside style="padding-right:10px;">Inquiry for:</aside> <label class="radio"> <input type="radio" name="project" checked> <span> </span> Myself</label>
+                        <label class="radio">
+                         <input type="radio" name="project"> <span></span> Company</label> </div></li>
+                         <li><textarea name="Message" id="" cols="30" rows="3" class="border1"></textarea></li>
+                    </ul>
+                    <div class="submi">
+                        <a href="#">SUBMIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="exam" id="exam-certification">
+    <div class="container heading-line2">
+        <h2>Agile Scrum Master Exam & <b>Certification</b></h2>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="accordion" id="accordionExample">
+ 
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-1" aria-expanded="false" aria-controls="collapseone">
+        How do you become a Certified Salesforce App Builder?
+      </button>
+    </h2>
+    <div id="exam-1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>To become a Certified Salesforce App Builder, you must pass the Salesforce App Builder (DEV 401) Exam.</p>
+        <ul>
+            <li>Step 1: Complete this training course.</li>
+            <li>Step 2: Visit certification.salesforce.com and register to take the DEV 401 exam.</li>
+            <li>Step 3: Pass the exams to become certified.</li>
+            
+        </ul>
+      </div>
+</div>
+</div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-2" aria-expanded="false" aria-controls="collapseTwo">
+       What are the prerequisites for Salesforce App Builder certification?
+      </button>
+    </h2>
+    <div id="exam-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       There are no prerequisites for this course or to take the Salesforce DEV 401 examination.
+      </div>
+    </div>
+ </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-3" aria-expanded="false" aria-controls="collapseThree">
+      What do I need to do to unlock my Trident Global Services certificate?
+      </button>
+    </h2>
+    <div id="exam-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <ul>
+           <li>Complete 85% of the course.</li>
+           <li>Complete 1 Project and simulation test with a minimum score of 60%.</li>
+       </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-4" aria-expanded="false" aria-controls="collapseThree">
+          Do you provide any practice tests as a part of this course?
+      </button>
+    </h2>
+    <div id="exam-4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Yes, we provide 1 practice test as part of our course to help you prepare for the actual certification exam. You can try this free Salesforce Platform App Builder Practice Test to understand the type of tests that are part of the course curriculum.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-5" aria-expanded="false" aria-controls="collapseThree">
+       Which topics will be covered in this new Salesforce App Builder Certification?
+      </button>
+    </h2>
+    <div id="exam-5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Learners taking the Salesforce Platform App Builder Certification exam should have proficiency in the following topics, each topic is provided with its corresponding exam weight:
+        <ul>
+            <li>Salesforce fundamentals - 8%</li>
+            <li>Data modeling and management - 20%</li>
+            <li>Security - 10%</li>
+            <li>Business logic and process automation - 27%</li>
+            <li>Social - 3%</li>
+            <li>User interface - 14%</li>
+            <li>Reporting - 5%</li>
+            <li>Mobile - 5%</li>
+            <li>App development - 8%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#exam-6" aria-expanded="false" aria-controls="collapseThree">
+        How many questions are there in the Salesforce Developer Certification exam? What is the passing score?
+      </button>
+    </h2>
+    <div id="exam-6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      The exam is online-based, with a total of 60 multiple-choice questions. The test lasts for about 90 minutes. All candidates must get a minimum passing score of 68%.
+      </div>
+</div>
+  
+</div>
+
+  
+</div>
+            </div>
+            <div class="col-md-5">
+                <div>
+                    <img src="{% static 'assets/images/s-sales.png' %}" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+
+<section class="managing-testi" id="reviews">
+    <div class="container">
+         <div class="row">
+                 <div class="col-lg-12 ">
+                    <!-- section-title -->
+                    
+                        <h4>Reviews</h4>
+                    
+                </div>
+                <div class="testimonial-active2 owl-carousel">
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Amit Patel</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Trident Global Services  is the best place to learn online from experienced and certified tutors. I have completed the Agile Scrum Master and Salesforce training through Trident Global Services . They provided a user-friendly environment with world-class trainers and e-learning content. The SimpliTalk forum is great for resolving and questions.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                   <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon2.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Steven Max</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p">Trident Global Services  is a fantastic platform to learn new technologies while being employed. The course content is excellent. After getting certified, I was able to change my job role and grab a 30% salary hike.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                    <div class="col-lg-11 m-auto">
+                        <!-- testimonial-wrap -->
+                        <div class="testimonial-wrap text-center">
+                            
+                            <div class="testimonial-info">
+                                <div class="review-top">
+                                    <div class="r-left"><img src="{% static 'assets/images/review-icon.png' %}" alt="" ></div>
+                                    <div class="r-right">
+                                        <h4>Dan Sanny</h4>
+                                    <h6>DESIGNER</h6>
+                                    <h5><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h5>
+                                    </div>
+                                </div>
+                                <p class="text-left-p"> Everything, the trainer, tools and technology used, the pace and accessibility was really good.</p>
+                            </div>
+                        </div><!--// testimonial-wrap -->
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+
+
+<section class="faqs" id="faqs">
+    <div class="container">
+        <h4>FAQs</h4>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="accordion" id="accordionExample">
+ 
+  
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="collapseone">
+        I want to know more about the training program. Whom do I contact?
+      </button>
+    </h2>
+    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Please join our Live Chat for instant support, call us, or Request a Call Back to have your query resolved. 
+ </div>
+</div>
+</div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="collapseTwo">
+       How is Salesforce Developer 401 different from Salesforce Platform App Builder?
+      </button>
+    </h2>
+    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Salesforce replaced the Developer 401 Certification in September 2015 with the new Salesforce Platform App Builder Certification. The new Salesforce Developer course is considered the starting point for beginners and potential developers on the platform. The course covers the core concepts that you need to understand in order to pass the Platform App Builder Certification Exam.
+      </div>
+    </div>
+ </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="collapseThree">
+        Who are the instructors and how are they selected?
+      </button>
+    </h2>
+    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       All of our highly qualified trainers are industry experts with years of relevant industry experience working with front-end development technology. Each of them has gone through a rigorous selection process before they are certified to train for us, including profile screening, technical evaluation, and a training demo. We also ensure that only those trainers with a high alumni rating remain on our faculty.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="collapseThree">
+        Can I cancel my enrollment? Will I get a refund?
+      </button>
+    </h2>
+    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Yes, you can cancel your enrollment if necessary. We will refund the course price after deducting an administration fee. To learn more, you can view our refund policy.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="collapseThree">
+        What is Salesforce used for?
+      </button>
+    </h2>
+    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Salesforce is the industry-leading customer relationship management (CRM) platform based on cloud principles. Salesforce is primarily used to develop and distribute custom applications via a variety of software solutions and platform offerings. Organizations can use salesforce services to attract more customers using effective digital marketing campaigns. Our salesforce developer course helps you learn the creating and deploying applications on the Salesforce platform.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="e6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="collapseThree">
+        Is the Salesforce Developer course difficult to learn?
+      </button>
+    </h2>
+    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Salesforce developer course instructors are dynamic and qualified professionals having ample training experience. They gauge students’ needs, learning capability, and grasping power and subsequently they teach each and every concept in simple layman's terms. Course content is designed to encompass a perfect blend of theoretical and practical knowledge and delivered in an interactive manner.
+      </div>
+    </div>
+  </div>
+ 
+ 
+
+  
+</div>
+</div>
+<div class=" col-md-4 img-faq">
+<img src="{% static 'assets/images/faq.png' %}" alt="" class="" >
+</div>
+</div>
+</div>
+</section>
+<!--  -->
+
+
+
+<section class="sub-footer">
+    <div class="container">
+        <h2>For Corporate Training</h2>
+        <h3>Transform your team to Managing across with customized learning models.</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Name" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Email id" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="sub-box">
+                    <input type="text" placeholder="Phone number" class="input">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <button type="button">Enquiry Now</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--  -->
+{% endblock body %}
